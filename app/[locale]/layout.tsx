@@ -17,8 +17,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "O₂ МedТехника - Кислородные концентраторы",
-  description: "Профессиональные кислородные концентраторы для дома и клиник. Аренда и продажа с доставкой за 2 часа.",
+  title: "kislorodpro.uz - Кислородные концентраторы",
+  description: "Профессиональные кислородные концентраторы для дома и клиник. Аренда и продажа с быстрой доставкой. ☎️ +998 99 002 01 01",
+  keywords: ["кислород", "концентратор", "аренда", "продажа", "Узбекистан", "Ташкент", "kislorodpro"],
+  authors: [{ name: "kislorodpro.uz" }],
+  openGraph: {
+    title: "kislorodpro.uz - Кислородные концентраторы",
+    description: "Аренда и продажа кислородных концентраторов. Быстрая доставка. ☎️ +998 99 002 01 01",
+    siteName: "kislorodpro.uz",
+    locale: "ru_RU",
+    type: "website",
+  }
 };
 
 export function generateStaticParams() {

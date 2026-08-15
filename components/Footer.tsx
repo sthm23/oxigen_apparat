@@ -8,30 +8,52 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="text-2xl font-bold text-sky-400 mb-4">{t('header.brand')}</div>
-            <p className="text-sm">
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-2xl font-bold text-white">kislorod</span>
+              <span className="text-2xl font-bold text-sky-400">pro</span>
+              <span className="text-xl font-bold text-sky-300">.uz</span>
+            </div>
+            <p className="text-sm mb-3">
               {t('footer.description')}
             </p>
+            <div className="text-xs text-slate-400 font-medium tracking-wider">
+              {t('header.slogan')}
+            </div>
           </div>
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.equipment')}</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-sky-400 transition">{t('section1.products.concentrator5.name')}</a></li>
-              <li><a href="#" className="hover:text-sky-400 transition">{t('section1.products.portable.name')}</a></li>
+              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('section1.products.concentrator5.name')}</a></li>
+              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('section1.products.concentrator8.name')}</a></li>
+              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('section1.products.concentrator10.name')}</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.services')}</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-sky-400 transition">{t('header.packages')}</a></li>
+              <li><a href="#packages" className="hover:text-sky-400 transition">Аренда</a></li>
+              <li><a href="#packages" className="hover:text-sky-400 transition">Продажа</a></li>
+              <li><a href="#equipment" className="hover:text-sky-400 transition">Расходники</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.contacts')}</h4>
             <ul className="space-y-2 text-sm">
-              <li>☎️ +7 (495) 123-45-67</li>
-              <li>📱 WhatsApp / Telegram</li>
-              <li>✉️ info@o2medtech.ru</li>
+              <li>
+                <a href="tel:+998990020101" className="hover:text-sky-400 transition">
+                  ☎️ {t('footer.phone')}
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/Abduvohidxon0101" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition">
+                  📱 Telegram
+                </a>
+              </li>
+              <li>
+                <a href="https://kislorodpro.uz" className="hover:text-sky-400 transition">
+                  🌐 {t('footer.website')}
+                </a>
+              </li>
               <li>🕐 24/7</li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 {
   "header": {
-    "brand": "O₂ MedTech",
+    "brand": "kislorodpro.uz",
+    "slogan": "QUALITY • TRUST • RESULTS",
     "equipment": "Equipment",
     "packages": "Packages",
     "reviews": "Reviews",
@@ -9,69 +10,150 @@
   "hero": {
     "badge": "AVAILABLE 24/7 · ALWAYS ONLINE",
     "title": "Oxygen always at hand.",
-    "description": "Professional oxygen concentrators for home and clinics. Rental and sale with delivery within 2 hours. When every breath matters.",
+    "description": "Professional oxygen concentrators for home and clinics. Rental and sale with fast delivery. When every breath matters.",
     "cta1": "Choose Equipment",
     "cta2": "Consultation",
     "available": "IN STOCK",
     "concentrators": "Concentrators 5-10l/min",
     "from": "from",
-    "perMonth": "/month"
+    "rentalPrice": "40,000 sum/day"
   },
   "marquee": {
     "item1": "💨 Concentrators 5-10l/min",
-    "item2": "🏥 Certified by Roszdravnadzor",
-    "item3": "🚚 Delivery within 2 hours",
-    "item4": "⚡ Free maintenance"
+    "item2": "🏥 Certified equipment",
+    "item3": "🚚 Fast delivery",
+    "item4": "⚡ Professional service"
   },
   "section1": {
     "tag": "01 /ESSENTIAL EQUIPMENT",
-    "title": "Reliable breathing support.",
-    "subtitle": "The equipment you need when every minute counts. Professional solutions for home and clinics.",
+    "title": "Rental and Sale of Concentrators",
+    "subtitle": "Professional equipment for home and clinics. Flexible rental rates and favorable purchase terms.",
     "products": {
       "concentrator5": {
         "name": "5l/min Concentrator",
         "description": "Compact and quiet. Ideal for home use. Oxygen purity 93±3%.",
-        "badge": "POPULAR"
+        "badge": "POPULAR",
+        "rentalFrom": "from 40,000 sum/day"
+      },
+      "concentrator8": {
+        "name": "8l/min Concentrator",
+        "description": "Increased performance. For medium and high oxygen needs.",
+        "badge": "MEDIUM",
+        "rentalFrom": "from 60,000 sum/day"
       },
       "concentrator10": {
         "name": "10l/min Concentrator",
         "description": "Professional level. For clinics and high-need patients.",
-        "badge": "FOR CLINICS"
-      },
-      "portable": {
-        "name": "Portable Concentrator",
-        "description": "Freedom of movement. Battery life up to 8 hours. Weight only 2.3kg.",
-        "badge": "MOBILE"
+        "badge": "FOR CLINICS",
+        "rentalFrom": "from 80,000 sum/day"
       },
       "accessories": {
         "name": "Pulse Oximeter + Supplies",
         "description": "Oxygen saturation monitoring. Nasal cannulas, humidifiers, filters.",
-        "badge": "ESSENTIAL"
+        "badge": "ESSENTIAL",
+        "rentalFrom": "Contact us"
       }
     },
-    "package": {
-      "label": "ONE-CLICK BUNDLE",
-      "title": "Home Basic Package",
-      "description": "5l/min concentrator + supplies + maintenance",
-      "cta": "Get Package →"
-    },
     "select": "Select"
+  },
+  "pricing": {
+    "tag": "02 /RENTAL RATES",
+    "title": "Flexible Pricing Plans",
+    "subtitle": "Choose a convenient rental period. Free consultation and 24/7 support.",
+    "perDay": "/day",
+    "perMonth": "/month",
+    "days": "days",
+    "concentrator5": {
+      "name": "5l Concentrator",
+      "tariff1": {
+        "price": "50,000",
+        "period": "minimum 3 days",
+        "label": "SHORT TERM"
+      },
+      "tariff2": {
+        "price": "40,000",
+        "period": "7 to 14 days",
+        "label": "MEDIUM TERM"
+      },
+      "tariff3": {
+        "price": "1,000,000",
+        "period": "30 days",
+        "label": "BEST VALUE"
+      }
+    },
+    "concentrator8": {
+      "name": "8l Concentrator",
+      "tariff1": {
+        "price": "80,000",
+        "period": "minimum 3 days",
+        "label": "SHORT TERM"
+      },
+      "tariff2": {
+        "price": "60,000",
+        "period": "7 to 14 days",
+        "label": "MEDIUM TERM"
+      },
+      "tariff3": {
+        "price": "1,600,000",
+        "period": "30 days",
+        "label": "BEST VALUE"
+      }
+    },
+    "concentrator10": {
+      "name": "10l Concentrator",
+      "tariff1": {
+        "price": "100,000",
+        "period": "minimum 3 days",
+        "label": "SHORT TERM"
+      },
+      "tariff2": {
+        "price": "80,000",
+        "period": "7 to 14 days",
+        "label": "MEDIUM TERM"
+      },
+      "tariff3": {
+        "price": "2,200,000",
+        "period": "30 days",
+        "label": "BEST VALUE"
+      }
+    },
+    "features": {
+      "consultation": "Free consultation",
+      "support": "24/7 connection",
+      "delivery": "Fast delivery in the city"
+    },
+    "note": "Important: rental is calculated for a pre-agreed period. If the device is returned early, the payment is not recalculated.",
+    "deliveryNote": "The fee for equipment pickup and return is paid by the client.",
+    "selectTariff": "Select tariff"
   },
   "cta": {
     "title": "Get consultation in 15 minutes",
     "description": "We'll select equipment for your needs. Tell you about rental and purchase. Calculate the cost.",
-    "button1": "Call me",
-    "button2": "Write on WhatsApp",
-    "contacts": "☎️ +7 (495) 123-45-67 · 📱 Telegram/WhatsApp · ✉️ info@o2medtech.ru"
+    "button1": "Call now",
+    "button2": "Write on Telegram",
+    "contacts": "☎️ +998 99 002 01 01 · 📱 t.me/Abduvohidxon0101 · 🌐 kislorodpro.uz"
   },
   "footer": {
-    "description": "Professional oxygen therapy solutions since 2015.",
+    "description": "Professional oxygen therapy solutions. Quality • Trust • Results",
     "equipment": "Equipment",
     "services": "Services",
     "contacts": "Contacts",
-    "copyright": "© 2026 O₂ MedTech · Available 24/7 · Always nearby",
+    "phone": "+998 99 002 01 01",
+    "telegram": "t.me/Abduvohidxon0101",
+    "website": "kislorodpro.uz",
+    "copyright": "© 2026 kislorodpro.uz · Available 24/7 · Always nearby",
     "privacy": "Privacy Policy",
     "licenses": "Licenses",
     "faq": "FAQ"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "goHome": "Go home",
+    "contactUs": "Contact us",
+    "needHelp": "Need help? Here are some useful links:",
+    "equipment": "Equipment",
+    "pricing": "Pricing",
+    "support": "24/7 Support"
   }
 }

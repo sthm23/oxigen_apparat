@@ -5,25 +5,21 @@ import { PackageBanner } from './PackageBanner';
 const products = [
   {
     key: 'concentrator5',
-    price: "25 000₽",
     badgeColor: "bg-green-500",
     icon: "🫁"
   },
   {
-    key: 'concentrator10',
-    price: "45 000₽",
+    key: 'concentrator8',
     badgeColor: "bg-sky-500",
     icon: "⚕️"
   },
   {
-    key: 'portable',
-    price: "35 000₽",
-    badgeColor: "bg-cyan-500",
-    icon: "🎒"
+    key: 'concentrator10',
+    badgeColor: "bg-cyan-600",
+    icon: "🏥"
   },
   {
     key: 'accessories',
-    price: "3 500₽",
     badgeColor: "bg-emerald-500",
     icon: "📊"
   }
@@ -45,19 +41,16 @@ export function EquipmentSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product, idx) => (
             <ProductCard
               key={idx}
               productKey={product.key}
-              price={product.price}
               badgeColor={product.badgeColor}
               icon={product.icon}
             />
           ))}
         </div>
-
-        <PackageBanner />
       </div>
     </section>
   );

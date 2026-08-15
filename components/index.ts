@@ -4,6 +4,8 @@ export { Marquee } from './Marquee';
 export { EquipmentSection } from './EquipmentSection';
 export { ProductCard } from './ProductCard';
 export { PackageBanner } from './PackageBanner';
+export { PricingSection } from './PricingSection';
+export { PricingCard } from './PricingCard';
 export { CTASection } from './CTASection';
 export { Footer } from './Footer';
 export { ThemeToggle } from './ThemeToggle';

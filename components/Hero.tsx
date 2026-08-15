@@ -18,12 +18,20 @@ export function Hero() {
             {t('hero.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="px-8 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold text-lg transition shadow-lg shadow-sky-200 dark:shadow-sky-900/50">
+            <a
+              href="#equipment"
+              className="px-8 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold text-lg transition shadow-lg shadow-sky-200 dark:shadow-sky-900/50 text-center"
+            >
               {t('hero.cta1')}
-            </button>
-            <button className="px-8 py-4 border-2 border-sky-600 text-sky-600 dark:text-sky-400 dark:border-sky-400 hover:bg-sky-50 dark:hover:bg-sky-900/20 rounded-full font-semibold text-lg transition">
+            </a>
+            <a
+              href="https://t.me/Abduvohidxon0101"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 border-2 border-sky-600 text-sky-600 dark:text-sky-400 dark:border-sky-400 hover:bg-sky-50 dark:hover:bg-sky-900/20 rounded-full font-semibold text-lg transition text-center"
+            >
               {t('hero.cta2')}
-            </button>
+            </a>
           </div>
         </div>
         <div className="relative">
@@ -36,7 +44,7 @@ export function Hero() {
                   {t('hero.concentrators')}
                 </div>
                 <div className="text-green-600 dark:text-green-400 font-semibold mt-2">
-                  {t('hero.from')} 25 000₽{t('hero.perMonth')}
+                  {t('hero.from')} {t('hero.rentalPrice')}
                 </div>
               </div>
             </div>

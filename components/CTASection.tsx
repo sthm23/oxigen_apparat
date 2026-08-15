@@ -13,12 +13,20 @@ export function CTASection() {
           {t('cta.description')}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-10 py-4 bg-white hover:bg-sky-50 text-sky-600 rounded-full font-bold text-lg transition shadow-xl">
+          <a
+            href="tel:+998990020101"
+            className="px-10 py-4 bg-white hover:bg-sky-50 text-sky-600 rounded-full font-bold text-lg transition shadow-xl inline-block"
+          >
             {t('cta.button1')}
-          </button>
-          <button className="px-10 py-4 border-2 border-white text-white hover:bg-white/10 rounded-full font-bold text-lg transition">
+          </a>
+          <a
+            href="https://t.me/Abduvohidxon0101"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 border-2 border-white text-white hover:bg-white/10 rounded-full font-bold text-lg transition inline-block"
+          >
             {t('cta.button2')}
-          </button>
+          </a>
         </div>
         <div className="mt-8 text-sky-100 text-sm">
           {t('cta.contacts')}

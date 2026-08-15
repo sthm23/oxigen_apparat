@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { EquipmentSection } from "@/components/EquipmentSection";
+import { PricingSection } from "@/components/PricingSection";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
       </section>
 
       <EquipmentSection />
+      <PricingSection />
       <CTASection />
       <Footer />
     </div>

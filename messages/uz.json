@@ -1,6 +1,7 @@
 {
   "header": {
-    "brand": "O₂ MedTexnika",
+    "brand": "kislorodpro.uz",
+    "slogan": "SIFAT • ISHONCH • NATIJA",
     "equipment": "Jihozlar",
     "packages": "Paketlar",
     "reviews": "Sharhlar",
@@ -9,69 +10,150 @@
   "hero": {
     "badge": "24/7 MAVJUD · DOIM ALOQADA",
     "title": "Kislorod har doim yondasizda.",
-    "description": "Uy va klinikalar uchun professional kislorod konsentratorlari. 2 soat ichida yetkazib berish bilan ijara va sotish. Har bir nafas muhim bo'lganda.",
+    "description": "Uy va klinikalar uchun professional kislorod konsentratorlari. Tez yetkazib berish bilan ijara va sotish. Har bir nafas muhim bo'lganda.",
     "cta1": "Jihozni tanlash",
     "cta2": "Maslahat",
     "available": "MAVJUD",
     "concentrators": "Konsentratorlar 5-10l/daq",
     "from": "dan",
-    "perMonth": "/oyiga"
+    "rentalPrice": "40 000 so'm/kuniga"
   },
   "marquee": {
     "item1": "💨 Konsentratorlar 5-10l/daq",
-    "item2": "🏥 Roszdravnadzor sertifikatlangan",
-    "item3": "🚚 2 soat ichida yetkazib berish",
-    "item4": "⚡ Bepul xizmat ko'rsatish"
+    "item2": "🏥 Sertifikatlangan jihozlar",
+    "item3": "🚚 Tez yetkazib berish",
+    "item4": "⚡ Professional xizmat"
   },
   "section1": {
     "tag": "01 /ASOSIY JIHOZLAR",
-    "title": "Ishonchli nafas olish yordami.",
-    "subtitle": "Har daqiqa muhim bo'lganda kerakli jihozlar. Uy va klinikalar uchun professional yechimlar.",
+    "title": "Konsentratorlarni ijaraga berish va sotish",
+    "subtitle": "Uy va klinikalar uchun professional jihozlar. Moslashuvchan ijara tariflari va qulay xarid shartlari.",
     "products": {
       "concentrator5": {
         "name": "Konsentrator 5l/daq",
         "description": "Ixcham va jim. Uyda foydalanish uchun ideal. Kislorod tozaligi 93±3%.",
-        "badge": "MASHHUR"
+        "badge": "MASHHUR",
+        "rentalFrom": "40 000 so'mdan/kuniga"
+      },
+      "concentrator8": {
+        "name": "Konsentrator 8l/daq",
+        "description": "Oshirilgan unumdorlik. O'rtacha va yuqori kislorod ehtiyojlari uchun.",
+        "badge": "O'RTACHA",
+        "rentalFrom": "60 000 so'mdan/kuniga"
       },
       "concentrator10": {
         "name": "Konsentrator 10l/daq",
         "description": "Professional daraja. Klinikalar va yuqori ehtiyojli bemorlar uchun.",
-        "badge": "KLINIKALAR UCHUN"
-      },
-      "portable": {
-        "name": "Portativ konsentrator",
-        "description": "Harakat erkinligi. Akkumulyatordan 8 soatgacha ishlaydi. Vazni atigi 2.3kg.",
-        "badge": "MOBIL"
+        "badge": "KLINIKALAR UCHUN",
+        "rentalFrom": "80 000 so'mdan/kuniga"
       },
       "accessories": {
         "name": "Pulsoksimetr + sarflanuvchilar",
         "description": "Kislorod to'yinganligini nazorat qilish. Burun kanyulalari, namlagichlar, filtrlar.",
-        "badge": "ZARUR"
+        "badge": "ZARUR",
+        "rentalFrom": "Aniqlashtiring"
       }
     },
-    "package": {
-      "label": "BIR BOSISHDA TO'PLAM",
-      "title": "Uy uchun asosiy paket",
-      "description": "Konsentrator 5l/daq + sarflanuvchilar + xizmat ko'rsatish",
-      "cta": "Paketni rasmiylashtirish →"
-    },
     "select": "Tanlash"
+  },
+  "pricing": {
+    "tag": "02 /IJARA TARIFLARI",
+    "title": "Moslashuvchan tarif rejalar",
+    "subtitle": "Qulay ijara muddatini tanlang. Bepul maslahat va 24/7 qo'llab-quvvatlash.",
+    "perDay": "/kuniga",
+    "perMonth": "/oyiga",
+    "days": "kun",
+    "concentrator5": {
+      "name": "Konsentrator 5l",
+      "tariff1": {
+        "price": "50 000",
+        "period": "minimal 3 kun",
+        "label": "QISQA MUDDAT"
+      },
+      "tariff2": {
+        "price": "40 000",
+        "period": "7 dan 14 kungacha",
+        "label": "O'RTACHA MUDDAT"
+      },
+      "tariff3": {
+        "price": "1 000 000",
+        "period": "30 kun",
+        "label": "FOYDALI"
+      }
+    },
+    "concentrator8": {
+      "name": "Konsentrator 8l",
+      "tariff1": {
+        "price": "80 000",
+        "period": "minimal 3 kun",
+        "label": "QISQA MUDDAT"
+      },
+      "tariff2": {
+        "price": "60 000",
+        "period": "7 dan 14 kungacha",
+        "label": "O'RTACHA MUDDAT"
+      },
+      "tariff3": {
+        "price": "1 600 000",
+        "period": "30 kun",
+        "label": "FOYDALI"
+      }
+    },
+    "concentrator10": {
+      "name": "Konsentrator 10l",
+      "tariff1": {
+        "price": "100 000",
+        "period": "minimal 3 kun",
+        "label": "QISQA MUDDAT"
+      },
+      "tariff2": {
+        "price": "80 000",
+        "period": "7 dan 14 kungacha",
+        "label": "O'RTACHA MUDDAT"
+      },
+      "tariff3": {
+        "price": "2 200 000",
+        "period": "30 kun",
+        "label": "FOYDALI"
+      }
+    },
+    "features": {
+      "consultation": "Bepul maslahat",
+      "support": "24/7 aloqa",
+      "delivery": "Shahar bo'ylab tez yetkazib berish"
+    },
+    "note": "Muhim: ijara oldindan kelishilgan muddatga hisoblanadi. Qurilmani muddatidan oldin qaytarishda to'lov qayta hisoblanmaydi.",
+    "deliveryNote": "Jihozni olib ketish va qaytarish uchun to'lov mijoz tomonidan to'lanadi.",
+    "selectTariff": "Tarifni tanlash"
   },
   "cta": {
     "title": "15 daqiqada maslahat oling",
     "description": "Ehtiyojlaringizga jihozni tanlaymiz. Ijara va sotib olish haqida ma'lumot beramiz. Narxni hisoblaymiz.",
-    "button1": "Menga qo'ng'iroq qiling",
-    "button2": "WhatsApp orqali yozing",
-    "contacts": "☎️ +7 (495) 123-45-67 · 📱 Telegram/WhatsApp · ✉️ info@o2medtech.ru"
+    "button1": "Hozir qo'ng'iroq qiling",
+    "button2": "Telegramga yozing",
+    "contacts": "☎️ +998 99 002 01 01 · 📱 t.me/Abduvohidxon0101 · 🌐 kislorodpro.uz"
   },
   "footer": {
-    "description": "2015 yildan beri kislorod terapiyasi uchun professional yechimlar.",
+    "description": "Kislorod terapiyasi uchun professional yechimlar. Sifat • Ishonch • Natija",
     "equipment": "Jihozlar",
     "services": "Xizmatlar",
     "contacts": "Kontaktlar",
-    "copyright": "© 2026 O₂ MedTexnika · 24/7 mavjud · Doim yondasizda",
+    "phone": "+998 99 002 01 01",
+    "telegram": "t.me/Abduvohidxon0101",
+    "website": "kislorodpro.uz",
+    "copyright": "© 2026 kislorodpro.uz · 24/7 mavjud · Doim yondasizda",
     "privacy": "Maxfiylik siyosati",
     "licenses": "Litsenziyalar",
     "faq": "Savol-javoblar"
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "description": "Siz qidirayotgan sahifa mavjud emas yoki ko'chirilgan.",
+    "goHome": "Bosh sahifa",
+    "contactUs": "Biz bilan bog'laning",
+    "needHelp": "Yordam kerakmi? Mana foydali havolalar:",
+    "equipment": "Jihozlar",
+    "pricing": "Tariflar",
+    "support": "24/7 qo'llab-quvvatlash"
   }
 }

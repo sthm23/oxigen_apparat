@@ -9,7 +9,8 @@ export function Providers({ children }: { children: React.ReactNode }) {
       defaultTheme="system"
       enableSystem
       disableTransitionOnChange
-      enableColorScheme
+      storageKey="kislorodpro-theme"
+      themes={['light', 'dark', 'system']}
     >
       {children}
     </ThemeProvider>
