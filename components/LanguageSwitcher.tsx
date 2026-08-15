@@ -3,11 +3,12 @@
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/routing';
 import { useState, useTransition } from 'react';
+import Image from 'next/image';
 
 const languages = [
-  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-  { code: 'uz', name: 'O\'zbek', flag: '🇺🇿' },
-  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'ru', name: 'Русский', flag: '/flags/ru.svg' },
+  { code: 'uz', name: 'O\'zbek', flag: '/flags/uz.svg' },
+  { code: 'en', name: 'English', flag: '/flags/en.svg' },
 ];
 
 export function LanguageSwitcher() {
@@ -33,7 +34,13 @@ export function LanguageSwitcher() {
         className="flex items-center gap-2 px-3 py-2 rounded-full bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors"
         disabled={isPending}
       >
-        <span className="text-xl">{currentLang.flag}</span>
+        <Image
+          src={currentLang.flag}
+          alt={currentLang.name}
+          width={20}
+          height={20}
+          className="rounded-sm"
+        />
         <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
           {currentLang.code.toUpperCase()}
         </span>
@@ -56,7 +63,13 @@ export function LanguageSwitcher() {
                     : 'text-slate-700 dark:text-slate-300'
                 }`}
               >
-                <span className="text-2xl">{lang.flag}</span>
+                <Image
+                  src={lang.flag}
+                  alt={lang.name}
+                  width={24}
+                  height={24}
+                  className="rounded-sm"
+                />
                 <span className="font-medium">{lang.name}</span>
                 {locale === lang.code && (
                   <span className="ml-auto text-sky-600 dark:text-sky-400">✓</span>
