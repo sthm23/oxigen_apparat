@@ -5,7 +5,12 @@
     "equipment": "Jihozlar",
     "packages": "Paketlar",
     "reviews": "Sharhlar",
-    "contact": "Bog'lanish"
+    "contact": "Bog'lanish",
+    "sloganTexts": {
+      "quality": "SIFAT",
+      "trust": "ISHONCH",
+      "results": "NATIJA"
+    }
   },
   "hero": {
     "badge": "24/7 MAVJUD · DOIM ALOQADA",
@@ -130,8 +135,7 @@
     "title": "15 daqiqada maslahat oling",
     "description": "Ehtiyojlaringizga jihozni tanlaymiz. Ijara va sotib olish haqida ma'lumot beramiz. Narxni hisoblaymiz.",
     "button1": "Hozir qo'ng'iroq qiling",
-    "button2": "Telegramga yozing",
-    "contacts": "☎️ +998 99 002 01 01 · 📱 t.me/Abduvohidxon0101 · 🌐 kislorodpro.uz"
+    "button2": "Telegramga yozing"
   },
   "footer": {
     "description": "Kislorod terapiyasi uchun professional yechimlar. Sifat • Ishonch • Natija",

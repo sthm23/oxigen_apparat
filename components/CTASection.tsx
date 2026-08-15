@@ -28,9 +28,6 @@ export function CTASection() {
             {t('cta.button2')}
           </a>
         </div>
-        <div className="mt-8 text-sky-100 text-sm">
-          {t('cta.contacts')}
-        </div>
       </div>
     </section>
   );

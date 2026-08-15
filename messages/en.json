@@ -5,7 +5,12 @@
     "equipment": "Equipment",
     "packages": "Packages",
     "reviews": "Reviews",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "sloganTexts": {
+      "quality": "QUALITY",
+      "trust": "TRUST",
+      "results": "RESULTS"
+    }
   },
   "hero": {
     "badge": "AVAILABLE 24/7 · ALWAYS ONLINE",
@@ -130,8 +135,7 @@
     "title": "Get consultation in 15 minutes",
     "description": "We'll select equipment for your needs. Tell you about rental and purchase. Calculate the cost.",
     "button1": "Call now",
-    "button2": "Write on Telegram",
-    "contacts": "☎️ +998 99 002 01 01 · 📱 t.me/Abduvohidxon0101 · 🌐 kislorodpro.uz"
+    "button2": "Write on Telegram"
   },
   "footer": {
     "description": "Professional oxygen therapy solutions. Quality • Trust • Results",
