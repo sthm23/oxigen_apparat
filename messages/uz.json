@@ -1,0 +1,77 @@
+{
+  "header": {
+    "brand": "O₂ MedTexnika",
+    "equipment": "Jihozlar",
+    "packages": "Paketlar",
+    "reviews": "Sharhlar",
+    "contact": "Bog'lanish"
+  },
+  "hero": {
+    "badge": "24/7 MAVJUD · DOIM ALOQADA",
+    "title": "Kislorod har doim yondasizda.",
+    "description": "Uy va klinikalar uchun professional kislorod konsentratorlari. 2 soat ichida yetkazib berish bilan ijara va sotish. Har bir nafas muhim bo'lganda.",
+    "cta1": "Jihozni tanlash",
+    "cta2": "Maslahat",
+    "available": "MAVJUD",
+    "concentrators": "Konsentratorlar 5-10l/daq",
+    "from": "dan",
+    "perMonth": "/oyiga"
+  },
+  "marquee": {
+    "item1": "💨 Konsentratorlar 5-10l/daq",
+    "item2": "🏥 Roszdravnadzor sertifikatlangan",
+    "item3": "🚚 2 soat ichida yetkazib berish",
+    "item4": "⚡ Bepul xizmat ko'rsatish"
+  },
+  "section1": {
+    "tag": "01 /ASOSIY JIHOZLAR",
+    "title": "Ishonchli nafas olish yordami.",
+    "subtitle": "Har daqiqa muhim bo'lganda kerakli jihozlar. Uy va klinikalar uchun professional yechimlar.",
+    "products": {
+      "concentrator5": {
+        "name": "Konsentrator 5l/daq",
+        "description": "Ixcham va jim. Uyda foydalanish uchun ideal. Kislorod tozaligi 93±3%.",
+        "badge": "MASHHUR"
+      },
+      "concentrator10": {
+        "name": "Konsentrator 10l/daq",
+        "description": "Professional daraja. Klinikalar va yuqori ehtiyojli bemorlar uchun.",
+        "badge": "KLINIKALAR UCHUN"
+      },
+      "portable": {
+        "name": "Portativ konsentrator",
+        "description": "Harakat erkinligi. Akkumulyatordan 8 soatgacha ishlaydi. Vazni atigi 2.3kg.",
+        "badge": "MOBIL"
+      },
+      "accessories": {
+        "name": "Pulsoksimetr + sarflanuvchilar",
+        "description": "Kislorod to'yinganligini nazorat qilish. Burun kanyulalari, namlagichlar, filtrlar.",
+        "badge": "ZARUR"
+      }
+    },
+    "package": {
+      "label": "BIR BOSISHDA TO'PLAM",
+      "title": "Uy uchun asosiy paket",
+      "description": "Konsentrator 5l/daq + sarflanuvchilar + xizmat ko'rsatish",
+      "cta": "Paketni rasmiylashtirish →"
+    },
+    "select": "Tanlash"
+  },
+  "cta": {
+    "title": "15 daqiqada maslahat oling",
+    "description": "Ehtiyojlaringizga jihozni tanlaymiz. Ijara va sotib olish haqida ma'lumot beramiz. Narxni hisoblaymiz.",
+    "button1": "Menga qo'ng'iroq qiling",
+    "button2": "WhatsApp orqali yozing",
+    "contacts": "☎️ +7 (495) 123-45-67 · 📱 Telegram/WhatsApp · ✉️ info@o2medtech.ru"
+  },
+  "footer": {
+    "description": "2015 yildan beri kislorod terapiyasi uchun professional yechimlar.",
+    "equipment": "Jihozlar",
+    "services": "Xizmatlar",
+    "contacts": "Kontaktlar",
+    "copyright": "© 2026 O₂ MedTexnika · 24/7 mavjud · Doim yondasizda",
+    "privacy": "Maxfiylik siyosati",
+    "licenses": "Litsenziyalar",
+    "faq": "Savol-javoblar"
+  }
+}
