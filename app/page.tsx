@@ -1,3 +1,5 @@
+import { ThemeToggle } from "@/components/ThemeToggle";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white dark:from-slate-900 dark:to-slate-800">
@@ -18,9 +20,12 @@ export default function Home() {
               Отзывы
             </a>
           </div>
-          <button className="px-6 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-medium transition">
-            Связаться
-          </button>
+          <div className="flex items-center gap-4">
+            <ThemeToggle />
+            <button className="px-6 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-medium transition">
+              Связаться
+            </button>
+          </div>
         </nav>
       </header>
 
