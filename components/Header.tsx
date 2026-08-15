@@ -10,8 +10,9 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex flex-col">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-slate-900 dark:text-white">Kislorod</span>
-            <span className="text-2xl font-bold text-sky-600 dark:text-sky-400">Pro</span>
+            <span className="text-2xl font-bold text-slate-900 dark:text-white">Kislorod
+              <span className="font-bold text-sky-600 dark:text-sky-400">Pro</span>
+            </span>
           </div>
           <div className="text-[10px] text-slate-500 dark:text-slate-400 font-medium tracking-wider">
             {t('header.slogan')}

@@ -64,7 +64,7 @@ export function Hero() {
             {t('hero.title')}
             <motion.span
               variants={fadeInUp}
-              className={`inline-block text-sky-600 transition-opacity duration-150 ${fade ? 'animate-fade-up opacity-100' : 'opacity-0'}`}>
+              className={`block text-sky-600 transition-opacity duration-150 ${fade ? 'animate-fade-up opacity-100' : 'opacity-0'}`}>
               {words[index]}
             </motion.span>
           </motion.h1>
@@ -100,7 +100,8 @@ export function Hero() {
           </motion.div>
         </motion.div>
         <div className="relative">
-          <div className="bg-gradient-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-3xl p-8 shadow-2xl">
+          <div className="h-150 w-full bg-[url('/img/1.jpg')] bg-cover bg-center bg-no-repeat rounded-2xl"></div>
+          {/* <div className="bg-gradient-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-3xl p-8 shadow-2xl">
             <div className="aspect-square bg-white dark:bg-slate-800 rounded-2xl flex items-center justify-center">
               <div className="text-center">
                 <div className="text-7xl mb-4">💨</div>
@@ -113,7 +114,7 @@ export function Hero() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
