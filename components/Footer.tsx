@@ -7,18 +7,17 @@ export function Footer() {
     <footer className="bg-slate-900 dark:bg-black text-slate-300 py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl font-bold text-white">kislorod</span>
-              <span className="text-2xl font-bold text-sky-400">pro</span>
-              <span className="text-xl font-bold text-sky-300">.uz</span>
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <span className="text-2xl font-bold text-white">Kislorod</span>
+              <span className="text-2xl font-bold text-sky-400">Pro</span>
             </div>
-            <p className="text-sm mb-3">
-              {t('footer.description')}
-            </p>
-            <div className="text-xs text-slate-400 font-medium tracking-wider">
+            <div className="text-xs text-slate-400 font-medium tracking-wider  mb-4">
               {t('header.slogan')}
             </div>
+            <p className="text-sm mb-3 ">
+              {t('footer.description')}
+            </p>
           </div>
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.equipment')}</h4>

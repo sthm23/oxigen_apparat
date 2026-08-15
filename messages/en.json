@@ -25,7 +25,7 @@
     "item4": "⚡ Professional service"
   },
   "section1": {
-    "tag": "01 /ESSENTIAL EQUIPMENT",
+    "tag": "ESSENTIAL EQUIPMENT",
     "title": "Rental and Sale of Concentrators",
     "subtitle": "Professional equipment for home and clinics. Flexible rental rates and favorable purchase terms.",
     "products": {
@@ -57,7 +57,7 @@
     "select": "Select"
   },
   "pricing": {
-    "tag": "02 /RENTAL RATES",
+    "tag": "RENTAL RATES",
     "title": "Flexible Pricing Plans",
     "subtitle": "Choose a convenient rental period. Free consultation and 24/7 support.",
     "perDay": "/day",

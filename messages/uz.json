@@ -25,7 +25,7 @@
     "item4": "⚡ Professional xizmat"
   },
   "section1": {
-    "tag": "01 /ASOSIY JIHOZLAR",
+    "tag": "ASOSIY JIHOZLAR",
     "title": "Konsentratorlarni ijaraga berish va sotish",
     "subtitle": "Uy va klinikalar uchun professional jihozlar. Moslashuvchan ijara tariflari va qulay xarid shartlari.",
     "products": {
@@ -57,7 +57,7 @@
     "select": "Tanlash"
   },
   "pricing": {
-    "tag": "02 /IJARA TARIFLARI",
+    "tag": "IJARA TARIFLARI",
     "title": "Moslashuvchan tarif rejalar",
     "subtitle": "Qulay ijara muddatini tanlang. Bepul maslahat va 24/7 qo'llab-quvvatlash.",
     "perDay": "/kuniga",
