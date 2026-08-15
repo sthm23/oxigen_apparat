@@ -25,29 +25,7 @@ export function PricingSection() {
           <PricingCard concentratorKey="concentrator10" />
         </div>
 
-        {/* Features */}
-        <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 mb-6">
-          <div className="grid md:grid-cols-3 gap-6 text-center">
-            <div>
-              <div className="text-4xl mb-3">✅</div>
-              <div className="font-semibold text-slate-900 dark:text-white mb-1">
-                {t('pricing.features.consultation')}
-              </div>
-            </div>
-            <div>
-              <div className="text-4xl mb-3">📞</div>
-              <div className="font-semibold text-slate-900 dark:text-white mb-1">
-                {t('pricing.features.support')}
-              </div>
-            </div>
-            <div>
-              <div className="text-4xl mb-3">🚚</div>
-              <div className="font-semibold text-slate-900 dark:text-white mb-1">
-                {t('pricing.features.delivery')}
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         {/* Important Notes */}
         <div className="space-y-4">

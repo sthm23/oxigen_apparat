@@ -12,6 +12,29 @@ export function CTASection() {
         <p className="text-xl text-sky-100 mb-8">
           {t('cta.description')}
         </p>
+        {/* Features */}
+        <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 mb-6">
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div>
+              <div className="text-4xl mb-3">✅</div>
+              <div className="font-semibold text-slate-900 dark:text-white mb-1">
+                {t('pricing.features.consultation')}
+              </div>
+            </div>
+            <div>
+              <div className="text-4xl mb-3">📞</div>
+              <div className="font-semibold text-slate-900 dark:text-white mb-1">
+                {t('pricing.features.support')}
+              </div>
+            </div>
+            <div>
+              <div className="text-4xl mb-3">🚚</div>
+              <div className="font-semibold text-slate-900 dark:text-white mb-1">
+                {t('pricing.features.delivery')}
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="tel:+998990020101"
@@ -28,6 +51,7 @@ export function CTASection() {
             {t('cta.button2')}
           </a>
         </div>
+
       </div>
     </section>
   );

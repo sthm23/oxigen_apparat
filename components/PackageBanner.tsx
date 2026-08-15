@@ -20,6 +20,7 @@ export function PackageBanner() {
             {t('section1.package.cta')}
           </button>
         </div>
+
       </div>
     </div>
   );
