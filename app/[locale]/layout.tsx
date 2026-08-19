@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "kislorodpro.uz - Кислородные концентраторы",
     description: "Аренда и продажа кислородных концентраторов. Быстрая доставка. ☎️ +998 99 011 11 99 · +998 95 033 73 73",
-    images: ["/img/1.jpg"],
+    images: ["/logo.jpg"],
   },
   robots: {
     index: true,
