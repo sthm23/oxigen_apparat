@@ -1,6 +1,5 @@
 {
   "header": {
-    "brand": "kislorodpro.uz",
     "slogan": "QUALITY • TRUST • RESULTS",
     "equipment": "Equipment",
     "packages": "Packages",
@@ -19,12 +18,12 @@
     "cta1": "Choose Equipment",
     "cta2": "Consultation",
     "available": "IN STOCK",
-    "concentrators": "Concentrators 5-10l/min",
+    "concentrators": "Concentrators 5-10L / min",
     "from": "from",
     "rentalPrice": "40,000 sum/day"
   },
   "marquee": {
-    "item1": "💨 Concentrators 5-10l/min",
+    "item1": "💨 Concentrators 5-10L / min",
     "item2": "🏥 Certified equipment",
     "item3": "🚚 Fast delivery",
     "item4": "⚡ Professional service"
@@ -35,19 +34,19 @@
     "subtitle": "Professional equipment for home and clinics. Flexible rental rates and favorable purchase terms.",
     "products": {
       "concentrator5": {
-        "name": "5l/min Concentrator",
+        "name": "5L / min Concentrator",
         "description": "Compact and quiet. Ideal for home use. Oxygen purity 93±3%.",
         "badge": "POPULAR",
         "rentalFrom": "from 40,000 sum/day"
       },
       "concentrator8": {
-        "name": "8l/min Concentrator",
+        "name": "8L / min Concentrator",
         "description": "Increased performance. For medium and high oxygen needs.",
         "badge": "MEDIUM",
         "rentalFrom": "from 60,000 sum/day"
       },
       "concentrator10": {
-        "name": "10l/min Concentrator",
+        "name": "10L / min Concentrator",
         "description": "Professional level. For clinics and high-need patients.",
         "badge": "FOR CLINICS",
         "rentalFrom": "from 80,000 sum/day"
@@ -69,7 +68,7 @@
     "perMonth": "/month",
     "days": "days",
     "concentrator5": {
-      "name": "5l Concentrator",
+      "name": "5L Concentrator",
       "tariff1": {
         "price": "50,000",
         "period": "minimum 3 days",
@@ -87,7 +86,7 @@
       }
     },
     "concentrator8": {
-      "name": "8l Concentrator",
+      "name": "8L Concentrator",
       "tariff1": {
         "price": "80,000",
         "period": "minimum 3 days",
@@ -105,7 +104,7 @@
       }
     },
     "concentrator10": {
-      "name": "10l Concentrator",
+      "name": "10L Concentrator",
       "tariff1": {
         "price": "100,000",
         "period": "minimum 3 days",
@@ -138,11 +137,15 @@
     "button2": "Write on Telegram"
   },
   "footer": {
-    "description": "Professional oxygen therapy solutions. Quality • Trust • Results",
+    "description": "Professional oxygen therapy solutions.",
     "equipment": "Equipment",
     "services": "Services",
     "contacts": "Contacts",
-    "phone": "+998 99 002 01 01",
+    "phone1": "+998 99 011 11 99",
+    "phone1Label": "Primary number",
+    "phone2": "+998 95 033 73 73",
+    "phone2Label": "Additional number",
+    "available247": "Available 24/7",
     "telegram": "t.me/Abduvohidxon0101",
     "website": "kislorodpro.uz",
     "copyright": "© 2026 kislorodpro.uz · Available 24/7 · Always nearby",

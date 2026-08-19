@@ -49,7 +49,7 @@ export function LanguageSwitcher() {
       {isOpen && (
         <>
           <div
-            className="fixed inset-0 z-40"
+            className="fixed inset-0 z-50"
             onClick={() => setIsOpen(false)}
           />
           <div className="absolute right-0 mt-2 w-48 rounded-xl bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 z-50 overflow-hidden">
@@ -57,11 +57,10 @@ export function LanguageSwitcher() {
               <button
                 key={lang.code}
                 onClick={() => handleLanguageChange(lang.code)}
-                className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors ${
-                  locale === lang.code
-                    ? 'bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400'
-                    : 'text-slate-700 dark:text-slate-300'
-                }`}
+                className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors ${locale === lang.code
+                  ? 'bg-sky-50 dark:bg-sky-900/20 text-sky-600 dark:text-sky-400'
+                  : 'text-slate-700 dark:text-slate-300'
+                  }`}
               >
                 <Image
                   src={lang.flag}

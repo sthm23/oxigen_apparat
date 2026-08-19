@@ -1,6 +1,5 @@
 {
   "header": {
-    "brand": "kislorodpro.uz",
     "slogan": "SIFAT • ISHONCH • NATIJA",
     "equipment": "Jihozlar",
     "packages": "Paketlar",
@@ -14,17 +13,17 @@
   },
   "hero": {
     "badge": "24/7 MAVJUD · DOIM ALOQADA",
-    "title": "Kislorod har doim yondasizda.",
+    "title": "Kislorod har doim siz bilan.",
     "description": "Uy va klinikalar uchun professional kislorod konsentratorlari. Tez yetkazib berish bilan ijara va sotish. Har bir nafas muhim bo'lganda.",
     "cta1": "Jihozni tanlash",
     "cta2": "Maslahat",
     "available": "MAVJUD",
-    "concentrators": "Konsentratorlar 5-10l/daq",
+    "concentrators": "Konsentratorlar 5-10L / daq",
     "from": "dan",
     "rentalPrice": "40 000 so'm/kuniga"
   },
   "marquee": {
-    "item1": "💨 Konsentratorlar 5-10l/daq",
+    "item1": "💨 Konsentratorlar 5-10L / daq",
     "item2": "🏥 Sertifikatlangan jihozlar",
     "item3": "🚚 Tez yetkazib berish",
     "item4": "⚡ Professional xizmat"
@@ -35,19 +34,19 @@
     "subtitle": "Uy va klinikalar uchun professional jihozlar. Moslashuvchan ijara tariflari va qulay xarid shartlari.",
     "products": {
       "concentrator5": {
-        "name": "Konsentrator 5l/daq",
+        "name": "Konsentrator 5L / daq",
         "description": "Ixcham va jim. Uyda foydalanish uchun ideal. Kislorod tozaligi 93±3%.",
         "badge": "MASHHUR",
         "rentalFrom": "40 000 so'mdan/kuniga"
       },
       "concentrator8": {
-        "name": "Konsentrator 8l/daq",
+        "name": "Konsentrator 8L / daq",
         "description": "Oshirilgan unumdorlik. O'rtacha va yuqori kislorod ehtiyojlari uchun.",
         "badge": "O'RTACHA",
         "rentalFrom": "60 000 so'mdan/kuniga"
       },
       "concentrator10": {
-        "name": "Konsentrator 10l/daq",
+        "name": "Konsentrator 10L / daq",
         "description": "Professional daraja. Klinikalar va yuqori ehtiyojli bemorlar uchun.",
         "badge": "KLINIKALAR UCHUN",
         "rentalFrom": "80 000 so'mdan/kuniga"
@@ -69,7 +68,7 @@
     "perMonth": "/oyiga",
     "days": "kun",
     "concentrator5": {
-      "name": "Konsentrator 5l",
+      "name": "Konsentrator 5L",
       "tariff1": {
         "price": "50 000",
         "period": "minimal 3 kun",
@@ -87,7 +86,7 @@
       }
     },
     "concentrator8": {
-      "name": "Konsentrator 8l",
+      "name": "Konsentrator 8L",
       "tariff1": {
         "price": "80 000",
         "period": "minimal 3 kun",
@@ -105,7 +104,7 @@
       }
     },
     "concentrator10": {
-      "name": "Konsentrator 10l",
+      "name": "Konsentrator 10L",
       "tariff1": {
         "price": "100 000",
         "period": "minimal 3 kun",
@@ -138,11 +137,15 @@
     "button2": "Telegramga yozing"
   },
   "footer": {
-    "description": "Kislorod terapiyasi uchun professional yechimlar. Sifat • Ishonch • Natija",
+    "description": "Kislorod terapiyasi uchun professional yechimlar.",
     "equipment": "Jihozlar",
     "services": "Xizmatlar",
     "contacts": "Kontaktlar",
-    "phone": "+998 99 002 01 01",
+    "phone1": "+998 99 011 11 99",
+    "phone1Label": "Asosiy raqam",
+    "phone2": "+998 95 033 73 73",
+    "phone2Label": "Qo'shimcha raqam",
+    "available247": "24/7 mavjud",
     "telegram": "t.me/Abduvohidxon0101",
     "website": "kislorodpro.uz",
     "copyright": "© 2026 kislorodpro.uz · 24/7 mavjud · Doim yondasizda",

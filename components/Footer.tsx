@@ -8,12 +8,17 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="flex flex-col">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center">
               <span className="text-2xl font-bold text-white">Kislorod</span>
               <span className="text-2xl font-bold text-sky-400">Pro</span>
+              <span className="text-2xl font-bold text-white">Uz</span>
             </div>
             <div className="text-xs text-slate-400 font-medium tracking-wider  mb-4">
-              {t('header.slogan')}
+              {t('header.sloganTexts.quality')}
+              <span className="font-bold text-sky-600 dark:text-sky-400  mx-1">•</span>
+              {t('header.sloganTexts.trust')}
+              <span className="font-bold text-sky-600 dark:text-sky-400 mx-1">•</span>
+              {t('header.sloganTexts.results')}
             </div>
             <p className="text-sm mb-3 ">
               {t('footer.description')}
@@ -39,8 +44,13 @@ export function Footer() {
             <h4 className="font-semibold text-white mb-3">{t('footer.contacts')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="tel:+998990020101" className="hover:text-sky-400 transition">
-                  ☎️ {t('footer.phone')}
+                <a href="tel:+998990111199" className="hover:text-sky-400 transition">
+                  ☎️ {t('footer.phone1')}
+                </a>
+              </li>
+              <li>
+                <a href="tel:+998950337373" className="hover:text-sky-400 transition">
+                  ☎️ {t('footer.phone2')}
                 </a>
               </li>
               <li>

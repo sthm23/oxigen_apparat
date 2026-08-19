@@ -36,7 +36,7 @@ export default function NotFound() {
             {t('goHome')}
           </Link>
           <a
-            href="tel:+998990020101"
+            href="tel:+998990111199"
             className="px-10 py-4 border-2 border-sky-600 text-sky-600 dark:text-sky-400 dark:border-sky-400 hover:bg-sky-50 dark:hover:bg-sky-900/20 rounded-full font-semibold text-lg transition"
           >
             {t('contactUs')}

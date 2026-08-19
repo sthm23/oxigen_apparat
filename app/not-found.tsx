@@ -36,7 +36,7 @@ export default function GlobalNotFound() {
                 На главную
               </Link>
               <a
-                href="tel:+998990020101"
+                href="tel:+998990111199"
                 className="px-10 py-4 border-2 border-sky-600 text-sky-600 hover:bg-sky-50 rounded-full font-semibold text-lg transition"
               >
                 Связаться с нами
