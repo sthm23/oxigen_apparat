@@ -35,9 +35,9 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.services')}</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#packages" className="hover:text-sky-400 transition">Аренда</a></li>
-              <li><a href="#packages" className="hover:text-sky-400 transition">Продажа</a></li>
-              <li><a href="#equipment" className="hover:text-sky-400 transition">Расходники</a></li>
+              <li><a href="#packages" className="hover:text-sky-400 transition">{t('footer.rent')}</a></li>
+              <li><a href="#packages" className="hover:text-sky-400 transition">{t('footer.sale')}</a></li>
+              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('footer.consumables')}</a></li>
             </ul>
           </div>
           <div>
