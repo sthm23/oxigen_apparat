@@ -43,7 +43,7 @@ export function CTASection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
               onClick={() => setIsModalOpen(true)}
-              className="px-13 py-4 bg-white hover:bg-sky-50 text-sky-600 rounded-full font-bold text-lg transition shadow-xl inline-block"
+              className="min-w-60 px-13 py-4 bg-white hover:bg-sky-50 text-sky-600 rounded-full font-bold text-lg transition shadow-xl inline-block"
             >
               {t('cta.button1')}
             </button>
