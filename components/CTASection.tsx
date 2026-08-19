@@ -9,7 +9,7 @@ export function CTASection() {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-br from-sky-600 via-cyan-600 to-blue-600 dark:from-sky-800 dark:via-cyan-800 dark:to-blue-800">
+      <section id="cta" className="py-20 bg-gradient-to-br from-sky-600 via-cyan-600 to-blue-600 dark:from-sky-800 dark:via-cyan-800 dark:to-blue-800">
         <div className="max-w-4xl mx-auto px-6 text-center text-white">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             {t('cta.title')}

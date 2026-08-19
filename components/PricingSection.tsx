@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { PricingCard } from './PricingCard';
+import { PricingCarousel } from './PricingCarousel';
 
 export function PricingSection() {
   const t = useTranslations();
@@ -19,10 +19,8 @@ export function PricingSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <PricingCard concentratorKey="concentrator5" />
-          <PricingCard concentratorKey="concentrator8" />
-          <PricingCard concentratorKey="concentrator10" />
+        <div className="mb-12">
+          <PricingCarousel />
         </div>
 
 
@@ -34,7 +32,7 @@ export function PricingSection() {
               <div className="text-2xl">⚠️</div>
               <div>
                 <div className="font-semibold text-amber-900 dark:text-amber-300 mb-1">
-                  Важно
+                  {t('pricing.noteTitle')}
                 </div>
                 <p className="text-sm text-amber-800 dark:text-amber-200">
                   {t('pricing.note')}

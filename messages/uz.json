@@ -126,7 +126,8 @@
       "support": "24/7 aloqa",
       "delivery": "Shahar bo'ylab tez yetkazib berish"
     },
-    "note": "Muhim: ijara oldindan kelishilgan muddatga hisoblanadi. Qurilmani muddatidan oldin qaytarishda to'lov qayta hisoblanmaydi.",
+    "noteTitle": "Muhim",
+    "note": "Ijara oldindan kelishilgan muddatga hisoblanadi. Qurilmani muddatidan oldin qaytarishda to'lov qayta hisoblanmaydi.",
     "deliveryNote": "Jihozni olib ketish va qaytarish uchun to'lov mijoz tomonidan to'lanadi.",
     "selectTariff": "Tarifni tanlash"
   },

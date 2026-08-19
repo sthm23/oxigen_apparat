@@ -1,29 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { ProductCard } from './ProductCard';
-import { PackageBanner } from './PackageBanner';
-
-const products = [
-  {
-    key: 'concentrator5',
-    badgeColor: "bg-green-500",
-    icon: "🫁"
-  },
-  {
-    key: 'concentrator8',
-    badgeColor: "bg-sky-500",
-    icon: "⚕️"
-  },
-  {
-    key: 'concentrator10',
-    badgeColor: "bg-cyan-600",
-    icon: "🏥"
-  },
-  {
-    key: 'accessories',
-    badgeColor: "bg-emerald-500",
-    icon: "📊"
-  }
-];
+import { ProductsCarousel } from './ProductsCarousel';
 
 export function EquipmentSection() {
   const t = useTranslations();
@@ -41,16 +17,7 @@ export function EquipmentSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {products.map((product, idx) => (
-            <ProductCard
-              key={idx}
-              productKey={product.key}
-              badgeColor={product.badgeColor}
-              icon={product.icon}
-            />
-          ))}
-        </div>
+        <ProductsCarousel />
       </div>
     </section>
   );

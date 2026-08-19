@@ -1,18 +1,27 @@
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 interface ProductCardProps {
   productKey: string;
   badgeColor: string;
-  icon: string;
+  imagePath: string;
 }
 
-export function ProductCard({ productKey, badgeColor, icon }: ProductCardProps) {
+export function ProductCard({ productKey, badgeColor, imagePath }: ProductCardProps) {
   const t = useTranslations();
 
   return (
     <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 hover:shadow-xl transition flex flex-col h-full">
-      <div className="aspect-square bg-gradient-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl mb-4 flex items-center justify-center text-6xl">
-        {icon}
+      <div className="aspect-square bg-gradient-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl mb-4 overflow-hidden relative">
+        <Image
+          src={imagePath}
+          alt={t(`section1.products.${productKey}.name`)}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          className="object-cover rounded-xl"
+          priority={false}
+          loading={'eager'}
+        />
       </div>
       <span className={`inline-block px-3 py-1 ${badgeColor} text-white text-xs font-bold rounded-full mb-3`}>
         {t(`section1.products.${productKey}.badge`)}

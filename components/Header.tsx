@@ -21,7 +21,7 @@ export function Header() {
                 Uz
               </span>
             </div>
-            <div className="text-lg line">
+            <div className="text-lg line leading-[0.5]">
               <span className="text-[10px] text-slate-500 dark:text-slate-400 font-medium tracking-wider">{t('header.sloganTexts.quality')}</span>
               <span className="font-bold text-sky-600 dark:text-sky-400 mx-1">•</span>
               <span className="text-[10px] text-slate-500 dark:text-slate-400 font-medium tracking-wider">{t('header.sloganTexts.trust')}</span>
@@ -36,8 +36,8 @@ export function Header() {
             <a href="#packages" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
               {t('header.packages')}
             </a>
-            <a href="#reviews" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
-              {t('header.reviews')}
+            <a href="#cta" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
+              {t('hero.cta2')}
             </a>
           </div>
           <div className="flex items-center gap-3">
@@ -63,8 +63,8 @@ export function Header() {
           <a href="#packages" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
             {t('header.packages')}
           </a>
-          <a href="#reviews" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
-            {t('header.reviews')}
+          <a href="#cta" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
+            {t('hero.cta2')}
           </a>
         </div>
       </div>

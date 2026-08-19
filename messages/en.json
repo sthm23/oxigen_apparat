@@ -126,7 +126,8 @@
       "support": "24/7 connection",
       "delivery": "Fast delivery in the city"
     },
-    "note": "Important: rental is calculated for a pre-agreed period. If the device is returned early, the payment is not recalculated.",
+    "noteTitle": "Important",
+    "note": "Rental is calculated for a pre-agreed period. If the device is returned early, the payment is not recalculated.",
     "deliveryNote": "The fee for equipment pickup and return is paid by the client.",
     "selectTariff": "Select tariff"
   },
