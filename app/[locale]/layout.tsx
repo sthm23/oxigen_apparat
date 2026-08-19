@@ -24,9 +24,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "kislorodpro.uz - Кислородные концентраторы",
     description: "Аренда и продажа кислородных концентраторов. Быстрая доставка. ☎️ +998 99 011 11 99 · +998 95 033 73 73",
+    url: "https://kislorodpro.uz",
     siteName: "kislorodpro.uz",
     locale: "ru_RU",
     type: "website",
+    images: [{
+      url: "/logo_light.svg",
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "kislorodpro.uz - Кислородные концентраторы",
+    description: "Аренда и продажа кислородных концентраторов. Быстрая доставка. ☎️ +998 99 011 11 99 · +998 95 033 73 73",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  verification: {
+    google: "your-google-verification-code-here",
   }
 };
 
