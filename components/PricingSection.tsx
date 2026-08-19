@@ -5,7 +5,7 @@ export function PricingSection() {
   const t = useTranslations();
 
   return (
-    <section id="packages" className="py-20 bg-gradient-to-b from-slate-50 to-white dark:from-slate-800 dark:to-slate-900">
+    <section id="packages" className="py-20 bg-linear-to-b from-slate-50 to-white dark:from-slate-800 dark:to-slate-900">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-12">
           <div className="text-sm text-sky-600 dark:text-sky-400 font-semibold mb-3">

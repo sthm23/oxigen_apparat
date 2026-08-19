@@ -12,7 +12,7 @@ export function ProductCard({ productKey, badgeColor, imagePath }: ProductCardPr
 
   return (
     <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 hover:shadow-xl transition flex flex-col h-full">
-      <div className="aspect-square bg-gradient-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl mb-4 overflow-hidden relative">
+      <div className="aspect-square bg-linear-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl mb-4 overflow-hidden relative">
         <Image
           src={imagePath}
           alt={t(`section1.products.${productKey}.name`)}

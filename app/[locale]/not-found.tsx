@@ -5,7 +5,7 @@ export default function NotFound() {
   const t = useTranslations('notFound');
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white dark:from-slate-900 dark:to-slate-800 flex items-center justify-center px-6">
+    <div className="min-h-screen bg-linear-to-b from-sky-50 to-white dark:from-slate-900 dark:to-slate-800 flex items-center justify-center px-6">
       <div className="text-center max-w-2xl">
         {/* Large 404 */}
         <div className="relative mb-8">

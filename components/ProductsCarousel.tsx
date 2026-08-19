@@ -18,12 +18,12 @@ const products = [
   {
     key: 'concentrator8',
     badgeColor: "bg-sky-500",
-    imagePath: "/img/2.jpg"
+    imagePath: "/img/4.jpg"
   },
   {
     key: 'concentrator10',
     badgeColor: "bg-cyan-600",
-    imagePath: "/img/4.jpg"
+    imagePath: "/img/2.jpg"
   },
   {
     key: 'accessories',

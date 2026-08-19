@@ -35,7 +35,7 @@ export function PricingCard({ concentratorKey }: PricingCardProps) {
         </div>
 
         {/* Tariff 2 */}
-        <div className="bg-gradient-to-br from-sky-50 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl p-5 relative overflow-hidden border-2 border-sky-200 dark:border-sky-700">
+        <div className="bg-linear-to-br from-sky-50 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl p-5 relative overflow-hidden border-2 border-sky-200 dark:border-sky-700">
           <div className="absolute top-2 right-2">
             <span className="inline-block px-2 py-1 bg-cyan-500 text-white text-[10px] font-bold rounded-full">
               {t(`pricing.${concentratorKey}.tariff2.label`)}
@@ -53,7 +53,7 @@ export function PricingCard({ concentratorKey }: PricingCardProps) {
         </div>
 
         {/* Tariff 3 */}
-        <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/30 dark:to-emerald-900/30 rounded-xl p-5 relative overflow-hidden border-2 border-green-200 dark:border-green-700">
+        <div className="bg-linear-to-br from-green-50 to-emerald-50 dark:from-green-900/30 dark:to-emerald-900/30 rounded-xl p-5 relative overflow-hidden border-2 border-green-200 dark:border-green-700">
           <div className="absolute top-2 right-2">
             <span className="inline-block px-2 py-1 bg-green-500 text-white text-[10px] font-bold rounded-full">
               {t(`pricing.${concentratorKey}.tariff3.label`)}

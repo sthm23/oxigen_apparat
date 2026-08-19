@@ -7,7 +7,7 @@ export default function GlobalNotFound() {
   return (
     <html lang="ru" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
-        <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white flex items-center justify-center px-6">
+        <div className="min-h-screen bg-linear-to-b from-sky-50 to-white flex items-center justify-center px-6">
           <div className="text-center max-w-2xl">
             {/* Large 404 */}
             <div className="relative mb-8">
