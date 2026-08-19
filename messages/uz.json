@@ -18,35 +18,35 @@
     "cta1": "Jihozni tanlash",
     "cta2": "Maslahat",
     "available": "MAVJUD",
-    "concentrators": "Konsentratorlar 5-10L / daq",
+    "concentrators": "Konsentratorlar 5-10 L/daq",
     "from": "dan",
     "rentalPrice": "40 000 so'm/kuniga"
   },
   "marquee": {
-    "item1": "💨 Konsentratorlar 5-10L / daq",
+    "item1": "💨 Konsentratorlar 5-10 L/daq",
     "item2": "🏥 Sertifikatlangan jihozlar",
     "item3": "🚚 Tez yetkazib berish",
     "item4": "⚡ Professional xizmat"
   },
   "section1": {
     "tag": "ASOSIY JIHOZLAR",
-    "title": "Konsentratorlarni ijaraga berish va sotish",
+    "title": "Konsentrator ijara va sotish",
     "subtitle": "Uy va klinikalar uchun professional jihozlar. Moslashuvchan ijara tariflari va qulay xarid shartlari.",
     "products": {
       "concentrator5": {
-        "name": "Konsentrator 5L / daq",
+        "name": "Konsentrator 5 L/daq",
         "description": "Ixcham va jim. Uyda foydalanish uchun ideal. Kislorod tozaligi 93±3%.",
         "badge": "MASHHUR",
         "rentalFrom": "40 000 so'mdan/kuniga"
       },
       "concentrator8": {
-        "name": "Konsentrator 8L / daq",
+        "name": "Konsentrator 8 L/daq",
         "description": "Oshirilgan unumdorlik. O'rtacha va yuqori kislorod ehtiyojlari uchun.",
         "badge": "O'RTACHA",
         "rentalFrom": "60 000 so'mdan/kuniga"
       },
       "concentrator10": {
-        "name": "Konsentrator 10L / daq",
+        "name": "Konsentrator 10 L/daq",
         "description": "Professional daraja. Klinikalar va yuqori ehtiyojli bemorlar uchun.",
         "badge": "KLINIKALAR UCHUN",
         "rentalFrom": "80 000 so'mdan/kuniga"
@@ -68,7 +68,7 @@
     "perMonth": "/oyiga",
     "days": "kun",
     "concentrator5": {
-      "name": "Konsentrator 5L",
+      "name": "Konsentrator 5 L",
       "tariff1": {
         "price": "50 000",
         "period": "minimal 3 kun",
@@ -86,7 +86,7 @@
       }
     },
     "concentrator8": {
-      "name": "Konsentrator 8L",
+      "name": "Konsentrator 8 L",
       "tariff1": {
         "price": "80 000",
         "period": "minimal 3 kun",
@@ -104,7 +104,7 @@
       }
     },
     "concentrator10": {
-      "name": "Konsentrator 10L",
+      "name": "Konsentrator 10 L",
       "tariff1": {
         "price": "100 000",
         "period": "minimal 3 kun",
