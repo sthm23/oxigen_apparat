@@ -58,7 +58,63 @@
         "rentalFrom": "Contact us"
       }
     },
-    "select": "Select"
+    "select": "Select",
+    "moreDetails": "More Details",
+    "rental": "Rental",
+    "features": {
+      "purity": "Up to 95.5% pure oxygen",
+      "certified": "Tested and clean devices",
+      "quiet": "Quiet and stable operation",
+      "quality": "Equipment from Germany, China, and USA"
+    },
+    "quickFeatures": {
+      "quiet": "Quiet operation",
+      "purity": "95% purity",
+      "continuous": "24/7 operation",
+      "certified": "Certified"
+    },
+    "modal": {
+      "close": "Close",
+      "specifications": "Specifications",
+      "advantages": "Advantages",
+      "delivery": "Delivery and Installation",
+      "details": {
+        "concentrator5": {
+          "efficiency": "High efficiency for home use",
+          "noise": "Low noise level (less than 45 dB)",
+          "continuous": "Operates continuously 24/7",
+          "maintenance": "No refilling required",
+          "purity": "Oxygen purity: 95.5%±2%",
+          "weight": "Weight: 6-7 kg",
+          "origin": "Made in: Germany, China"
+        },
+        "concentrator8": {
+          "efficiency": "Increased performance for medium loads",
+          "noise": "Low noise level (less than 48 dB)",
+          "continuous": "Operates continuously 24/7",
+          "maintenance": "No refilling required",
+          "purity": "Oxygen purity: 95.5%±2%",
+          "weight": "Weight: 8-10 kg",
+          "origin": "Made in: Germany, USA"
+        },
+        "concentrator10": {
+          "efficiency": "Maximum efficiency for clinics",
+          "noise": "Medium noise level (less than 52 dB)",
+          "continuous": "Operates continuously 24/7",
+          "maintenance": "No refilling required",
+          "purity": "Oxygen purity: 95.5%±2%",
+          "weight": "Weight: 10-14 kg",
+          "origin": "Made in: Germany, USA"
+        },
+        "accessories": {
+          "oximeter": "Pulse oximeter for saturation monitoring",
+          "cannulas": "Nasal cannulas (adult and pediatric)",
+          "humidifier": "Oxygen humidifier",
+          "filters": "Replacement filters",
+          "tubes": "Oxygen tubes of various lengths"
+        }
+      }
+    }
   },
   "pricing": {
     "tag": "RENTAL RATES",

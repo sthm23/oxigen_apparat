@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { ProductsCarousel } from './ProductsCarousel';
+import { FeaturesBar } from './FeaturesBar';
 
 export function EquipmentSection() {
   const t = useTranslations();
@@ -18,6 +19,8 @@ export function EquipmentSection() {
         </div>
 
         <ProductsCarousel />
+
+        <FeaturesBar />
       </div>
     </section>
   );

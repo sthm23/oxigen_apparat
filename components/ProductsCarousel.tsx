@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { ProductCard } from './ProductCard';
+import { ProductModal } from './ProductModal';
 import { useEffect, useState } from 'react';
 
 import 'swiper/css';
@@ -34,6 +35,15 @@ const products = [
 
 export function ProductsCarousel() {
   const [swiperInstance, setSwiperInstance] = useState<any>(null);
+  const [modalState, setModalState] = useState<{
+    isOpen: boolean;
+    productKey: string | null;
+    imagePath: string | null;
+  }>({
+    isOpen: false,
+    productKey: null,
+    imagePath: null,
+  });
 
   useEffect(() => {
     if (swiperInstance) {
@@ -44,45 +54,65 @@ export function ProductsCarousel() {
     }
   }, [swiperInstance]);
 
+  const openModal = (productKey: string, imagePath: string) => {
+    setModalState({ isOpen: true, productKey, imagePath });
+  };
+
+  const closeModal = () => {
+    setModalState({ isOpen: false, productKey: null, imagePath: null });
+  };
+
   return (
-    <Swiper
-      modules={[Autoplay, Pagination, Navigation]}
-      spaceBetween={24}
-      slidesPerView={1}
-      autoplay={{
-        delay: 3000,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      }}
-      pagination={{
-        clickable: true,
-      }}
-      navigation={true}
-      observer={true}
-      observeParents={true}
-      watchSlidesProgress={true}
-      onSwiper={setSwiperInstance}
-      breakpoints={{
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 24,
-        },
-      }}
-      className="products-swiper"
-    >
-      {products.map((product, idx) => (
-        <SwiperSlide key={idx} className="pb-10" >
-          <ProductCard
-            productKey={product.key}
-            badgeColor={product.badgeColor}
-            imagePath={product.imagePath}
-          />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <>
+      <Swiper
+        modules={[Autoplay, Pagination, Navigation]}
+        spaceBetween={24}
+        slidesPerView={1}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        observer={true}
+        observeParents={true}
+        watchSlidesProgress={true}
+        onSwiper={setSwiperInstance}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 24,
+          },
+        }}
+        className="products-swiper"
+      >
+        {products.map((product, idx) => (
+          <SwiperSlide key={idx} className="pb-10">
+            <ProductCard
+              productKey={product.key}
+              badgeColor={product.badgeColor}
+              imagePath={product.imagePath}
+              onOpenModal={openModal}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      {modalState.productKey && modalState.imagePath && (
+        <ProductModal
+          productKey={modalState.productKey}
+          imagePath={modalState.imagePath}
+          isOpen={modalState.isOpen}
+          onClose={closeModal}
+        />
+      )}
+    </>
   );
 }

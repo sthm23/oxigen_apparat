@@ -58,7 +58,63 @@
         "rentalFrom": "Aniqlashtiring"
       }
     },
-    "select": "Tanlash"
+    "select": "Tanlash",
+    "moreDetails": "Batafsil",
+    "rental": "Ijara",
+    "features": {
+      "purity": "95.5% gacha toza kislorod",
+      "certified": "Tekshirilgan va toza qurilmalar",
+      "quiet": "Jim va barqaror ishlash",
+      "quality": "Germaniya, Xitoy va AQShdan jihozlar"
+    },
+    "quickFeatures": {
+      "quiet": "Jim ishlaydi",
+      "purity": "95% tozalik",
+      "continuous": "24/7 ishlaydi",
+      "certified": "Tekshirilgan"
+    },
+    "modal": {
+      "close": "Yopish",
+      "specifications": "Xususiyatlar",
+      "advantages": "Afzalliklar",
+      "delivery": "Yetkazib berish va o'rnatish",
+      "details": {
+        "concentrator5": {
+          "efficiency": "Uyda foydalanish uchun yuqori samaradorlik",
+          "noise": "Past shovqin darajasi (45 dB dan kam)",
+          "continuous": "24/7 uzluksiz ishlaydi",
+          "maintenance": "To'ldirish talab qilinmaydi",
+          "purity": "Kislorod tozaligi: 95.5%±2%",
+          "weight": "Og'irligi: 6-7 kg",
+          "origin": "Ishlab chiqarish: Germaniya, Xitoy"
+        },
+        "concentrator8": {
+          "efficiency": "O'rtacha yuklamalar uchun oshirilgan unumdorlik",
+          "noise": "Past shovqin darajasi (48 dB dan kam)",
+          "continuous": "24/7 uzluksiz ishlaydi",
+          "maintenance": "To'ldirish talab qilinmaydi",
+          "purity": "Kislorod tozaligi: 95.5%±2%",
+          "weight": "Og'irligi: 8-10 kg",
+          "origin": "Ishlab chiqarish: Germaniya, AQSh"
+        },
+        "concentrator10": {
+          "efficiency": "Klinikalar uchun maksimal samaradorlik",
+          "noise": "O'rtacha shovqin darajasi (52 dB dan kam)",
+          "continuous": "24/7 uzluksiz ishlaydi",
+          "maintenance": "To'ldirish talab qilinmaydi",
+          "purity": "Kislorod tozaligi: 95.5%±2%",
+          "weight": "Og'irligi: 10-14 kg",
+          "origin": "Ishlab chiqarish: Germaniya, AQSh"
+        },
+        "accessories": {
+          "oximeter": "Saturatsiyani nazorat qilish uchun pulsoksimetr",
+          "cannulas": "Burun kanyulalari (kattalar va bolalar uchun)",
+          "humidifier": "Kislorod namlagichi",
+          "filters": "Almashtiriladigan filtrlar",
+          "tubes": "Turli uzunlikdagi kislorod naylari"
+        }
+      }
+    }
   },
   "pricing": {
     "tag": "IJARA TARIFLARI",
