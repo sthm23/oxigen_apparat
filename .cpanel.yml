@@ -1,10 +1,11 @@
 ---
 deployment:
   tasks:
+    - export APPPATH="$HOME/kislorodPro/oxigen_apparat"
+    - export BUILDPATH="$APPPATH/cpanel-build/standalone"
     - export DEPLOYPATH="$HOME/kislorodPro/standalone/"
+    - test -f "$BUILDPATH/server.js"
+    - /bin/rm -rf "$DEPLOYPATH/.next" "$DEPLOYPATH/public" "$DEPLOYPATH/node_modules"
+    - /bin/rm -f "$DEPLOYPATH/server.js" "$DEPLOYPATH/package.json" "$DEPLOYPATH/package-lock.json"
     - /bin/mkdir -p "$DEPLOYPATH/.next" "$DEPLOYPATH/public"
-    - npm ci
-    - npm run build
-    - /bin/cp -R .next/standalone/. "$DEPLOYPATH"
-    - /bin/cp -R .next/static "$DEPLOYPATH/.next/"
-    - /bin/cp -R public/. "$DEPLOYPATH/public/"
+    - /bin/cp -R "$BUILDPATH/." "$DEPLOYPATH"

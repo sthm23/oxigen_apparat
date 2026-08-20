@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_188c480._.js",
+        "server/edge/chunks/[root-of-the-server]__15ailkn._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_1dvrrz3.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_1dvrrz3.js",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(\\/?index|\\/?index\\.json|\\/?index(?:\\.rsc|\\.segments\\/.+\\.segment\\.rsc)))?[\\/#\\?]?$",
+          "originalSource": "/"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(ru|uz|en))(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+          "originalSource": "/(ru|uz|en)/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "zazYj-xfKEt1bnZaVQ_gS",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "bkvsuskyFgURV3JD+ttyqJIycprqt+Db2sedjj4Jgc4=",
+        "__NEXT_PREVIEW_MODE_ID": "a4233845f6c273fcf32c804d19b40444",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "3f9b67df259e1248670c22588a50c95a21d57ad8a0fde513077ad46dfe9da238",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "38c26633fcd851e5acc9ba13213c03b52265d3d72c7a311fd3625f1e50c41b59"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}
