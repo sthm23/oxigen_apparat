@@ -2,6 +2,7 @@
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { ContactModal } from './ContactModal';
+import { CheckCircle2, Phone, Truck } from 'lucide-react';
 
 export function CTASection() {
   const t = useTranslations();
@@ -21,19 +22,25 @@ export function CTASection() {
           <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 mb-6">
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-4xl mb-3">✅</div>
+                <div className="flex justify-center mb-3">
+                  <CheckCircle2 className="w-10 h-10 text-green-500" strokeWidth={2} />
+                </div>
                 <div className="font-semibold text-slate-900 dark:text-white mb-1">
                   {t('pricing.features.consultation')}
                 </div>
               </div>
               <div>
-                <div className="text-4xl mb-3">📞</div>
+                <div className="flex justify-center mb-3">
+                  <Phone className="w-10 h-10 text-sky-500" strokeWidth={2} />
+                </div>
                 <div className="font-semibold text-slate-900 dark:text-white mb-1">
                   {t('pricing.features.support')}
                 </div>
               </div>
               <div>
-                <div className="text-4xl mb-3">🚚</div>
+                <div className="flex justify-center mb-3">
+                  <Truck className="w-10 h-10 text-cyan-500" strokeWidth={2} />
+                </div>
                 <div className="font-semibold text-slate-900 dark:text-white mb-1">
                   {t('pricing.features.delivery')}
                 </div>

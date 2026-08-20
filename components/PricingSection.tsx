@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { PricingCarousel } from './PricingCarousel';
+import { AlertTriangle, Car } from 'lucide-react';
 
 export function PricingSection() {
   const t = useTranslations();
@@ -29,7 +30,7 @@ export function PricingSection() {
         <div className="space-y-4">
           <div className="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-500 rounded-r-xl p-5">
             <div className="flex items-start gap-3">
-              <div className="text-2xl">⚠️</div>
+              <AlertTriangle className="w-6 h-6 text-amber-600 dark:text-amber-400 shrink-0" strokeWidth={2} />
               <div>
                 <div className="font-semibold text-amber-900 dark:text-amber-300 mb-1">
                   {t('pricing.noteTitle')}
@@ -43,7 +44,7 @@ export function PricingSection() {
 
           <div className="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded-r-xl p-5">
             <div className="flex items-start gap-3">
-              <div className="text-2xl">🚗</div>
+              <Car className="w-6 h-6 text-blue-600 dark:text-blue-400 shrink-0" strokeWidth={2} />
               <div>
                 <p className="text-sm text-blue-800 dark:text-blue-200">
                   {t('pricing.deliveryNote')}

@@ -69,8 +69,8 @@ export function ProductModal({ productKey, imagePath, isOpen, onClose }: Product
               <div className="mb-6">
                 <span className={`inline-block px-4 py-2 ${productKey === 'concentrator5' ? 'bg-emerald-500' :
                   productKey === 'concentrator8' ? 'bg-sky-500' :
-                    productKey === 'concentrator10' ? 'bg-purple-500' :
-                      'bg-orange-500'
+                    productKey === 'concentrator10' ? 'bg-cyan-600' :
+                      'bg-emerald-500'
                   } text-white text-sm font-bold rounded-full`}>
                   {t(`section1.products.${productKey}.badge`)}
                 </span>

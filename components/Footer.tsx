@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Phone, MessageCircle, Globe, Clock } from 'lucide-react';
 
 export function Footer() {
   const t = useTranslations();
@@ -44,26 +45,33 @@ export function Footer() {
             <h4 className="font-semibold text-white mb-3">{t('footer.contacts')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="tel:+998990111199" className="hover:text-sky-400 transition">
-                  ☎️ {t('footer.phone1')}
+                <a href="tel:+998990111199" className="flex items-center gap-2 hover:text-sky-400 transition">
+                  <Phone className="w-4 h-4" strokeWidth={2} />
+                  {t('footer.phone1')}
                 </a>
               </li>
               <li>
-                <a href="tel:+998950337373" className="hover:text-sky-400 transition">
-                  ☎️ {t('footer.phone2')}
+                <a href="tel:+998950337373" className="flex items-center gap-2 hover:text-sky-400 transition">
+                  <Phone className="w-4 h-4" strokeWidth={2} />
+                  {t('footer.phone2')}
                 </a>
               </li>
               <li>
-                <a href="https://t.me/Abduvohidxon0101" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition">
-                  📱 Telegram
+                <a href="https://t.me/Abduvohidxon0101" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-sky-400 transition">
+                  <MessageCircle className="w-4 h-4" strokeWidth={2} />
+                  Telegram
                 </a>
               </li>
               <li>
-                <a href="https://kislorodpro.uz" className="hover:text-sky-400 transition">
-                  🌐 {t('footer.website')}
+                <a href="https://kislorodpro.uz" className="flex items-center gap-2 hover:text-sky-400 transition">
+                  <Globe className="w-4 h-4" strokeWidth={2} />
+                  {t('footer.website')}
                 </a>
               </li>
-              <li>🕐 24/7</li>
+              <li className="flex items-center gap-2">
+                <Clock className="w-4 h-4" strokeWidth={2} />
+                24/7
+              </li>
             </ul>
           </div>
         </div>
