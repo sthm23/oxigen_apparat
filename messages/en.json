@@ -43,7 +43,7 @@
         "name": "8 L/min Concentrator",
         "description": "Increased performance. For medium and high oxygen needs.",
         "badge": "MEDIUM",
-        "rentalFrom": "from 60,000 sum/day"
+        "rentalFrom": "from 50,000 sum/day"
       },
       "concentrator10": {
         "name": "10 L/min Concentrator",

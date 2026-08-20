@@ -43,7 +43,7 @@
         "name": "Konsentrator 8 L/daq",
         "description": "Oshirilgan unumdorlik. O'rtacha va yuqori kislorod ehtiyojlari uchun.",
         "badge": "O'RTACHA",
-        "rentalFrom": "60 000 so'mdan/kuniga"
+        "rentalFrom": "50 000 so'mdan/kuniga"
       },
       "concentrator10": {
         "name": "Konsentrator 10 L/daq",
