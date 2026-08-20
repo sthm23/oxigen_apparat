@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH="$HOME/kislorodPro/standalone/"
+    - /bin/mkdir -p "$DEPLOYPATH/.next" "$DEPLOYPATH/public"
+    - npm ci
+    - npm run build
+    - /bin/cp -R .next/standalone/. "$DEPLOYPATH"
+    - /bin/cp -R .next/static "$DEPLOYPATH/.next/"
+    - /bin/cp -R public/. "$DEPLOYPATH/public/"
