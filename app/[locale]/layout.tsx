@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   description: "Профессиональные кислородные концентраторы для дома и клиник. Аренда и продажа с быстрой доставкой. ☎️ +998 99 011 11 99 · +998 95 033 73 73",
   keywords: ["кислород", "концентратор", "аренда", "продажа", "Узбекистан", "Ташкент", "kislorodpro"],
   authors: [{ name: "kislorodpro.uz" }],
-  metadataBase: new URL("https://oxigen-apparat.vercel.app"),
+  metadataBase: new URL("https://kislorodpro.uz"),
   openGraph: {
     title: "kislorodpro.uz - Кислородные концентраторы",
     description: "Аренда и продажа кислородных концентраторов. Быстрая доставка. ☎️ +998 99 011 11 99 · +998 95 033 73 73",
-    url: "https://oxigen-apparat.vercel.app",
+    url: "https://kislorodpro.uz",
     siteName: "kislorodpro.uz",
     locale: "ru_RU",
     type: "website",
