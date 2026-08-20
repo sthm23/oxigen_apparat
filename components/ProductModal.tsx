@@ -55,7 +55,7 @@ export function ProductModal({ productKey, imagePath, isOpen, onClose }: Product
 
         <div className="p-6">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="aspect-square bg-gradient-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-2xl overflow-hidden relative">
+            <div className="aspect-square bg-linear-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-2xl overflow-hidden relative">
               <Image
                 src={imagePath}
                 alt={t(`section1.products.${productKey}.name`)}
@@ -105,7 +105,7 @@ export function ProductModal({ productKey, imagePath, isOpen, onClose }: Product
                   <div key={key} className="bg-slate-50 dark:bg-slate-700/50 rounded-xl p-4 flex items-start gap-3">
                     <div className="w-2 h-2 bg-sky-500 rounded-full mt-2 shrink-0"></div>
                     <div className="flex-1">
-                      <p className="text-slate-700 dark:text-slate-300 leading-relaxed">{value}</p>
+                      <p className="text-slate-700 dark:text-slate-300 leading-relaxed">{String(value)}</p>
                     </div>
                   </div>
                 ))}
