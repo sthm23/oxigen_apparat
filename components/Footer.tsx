@@ -28,17 +28,17 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.equipment')}</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('section1.products.concentrator5.name')}</a></li>
-              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('section1.products.concentrator8.name')}</a></li>
-              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('section1.products.concentrator10.name')}</a></li>
+              <li><a href="#sale" className="hover:text-sky-400 transition">{t('section1.products.concentrator5.name')}</a></li>
+              <li><a href="#sale" className="hover:text-sky-400 transition">{t('section1.products.concentrator8.name')}</a></li>
+              <li><a href="#sale" className="hover:text-sky-400 transition">{t('section1.products.concentrator10.name')}</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-white mb-3">{t('footer.services')}</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#packages" className="hover:text-sky-400 transition">{t('footer.rent')}</a></li>
-              <li><a href="#packages" className="hover:text-sky-400 transition">{t('footer.sale')}</a></li>
-              <li><a href="#equipment" className="hover:text-sky-400 transition">{t('footer.consumables')}</a></li>
+              <li><a href="#rental" className="hover:text-sky-400 transition">{t('footer.rent')}</a></li>
+              <li><a href="#sale" className="hover:text-sky-400 transition">{t('footer.sale')}</a></li>
+              <li><a href="#packages" className="hover:text-sky-400 transition">{t('footer.tariffs')}</a></li>
             </ul>
           </div>
           <div>

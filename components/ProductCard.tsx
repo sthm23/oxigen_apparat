@@ -7,10 +7,12 @@ interface ProductCardProps {
   productKey: string;
   badgeColor: string;
   images: string[];
+  imageIndex?: number;
+  mode?: 'sale' | 'rent';
   onOpenModal: (productKey: string, images: string[]) => void;
 }
 
-export function ProductCard({ productKey, badgeColor, images, onOpenModal }: ProductCardProps) {
+export function ProductCard({ productKey, badgeColor, images, imageIndex = 0, mode = 'rent', onOpenModal }: ProductCardProps) {
   const t = useTranslations();
 
   const quickFeatures = [
@@ -53,7 +55,7 @@ export function ProductCard({ productKey, badgeColor, images, onOpenModal }: Pro
     <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 hover:shadow-xl transition flex flex-col h-full">
       <div className="aspect-square bg-linear-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl mb-4 overflow-hidden relative">
         <Image
-          src={images[0]} // используем первую картинку из массива
+          src={images[imageIndex] || images[0]}
           alt={t(`section1.products.${productKey}.name`)}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -83,20 +85,34 @@ export function ProductCard({ productKey, badgeColor, images, onOpenModal }: Pro
 
       <div className="mb-4 mt-auto">
         <div className="text-sm text-slate-500 dark:text-slate-400 mb-1">
-          {t('section1.rental') + ':'}
+          {mode === 'sale' ? t('section1.sale') + ':' : t('section1.rental') + ':'}
         </div>
         <div className="text-lg font-bold text-sky-600 dark:text-sky-400">
-          {t(`section1.products.${productKey}.rentalFrom`)}
+          {mode === 'sale'
+            ? t(`section1.products.${productKey}.salePrice`)
+            : t(`section1.products.${productKey}.rentalFrom`)}
         </div>
       </div>
 
       <div className="flex gap-2">
-        <a
-          href="#packages"
-          className="flex-1 px-5 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-medium text-sm transition text-center"
-        >
-          {t('section1.select')}
-        </a>
+        {
+          mode === 'rent' ? (
+            <a
+              href="#packages"
+              className="flex-1 px-5 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-medium text-sm transition text-center"
+            >
+              {t('section1.select')}
+            </a>
+          ) :
+            (
+              <a
+                href="https://t.me/Abduvohidxon0101"
+                className="flex-1 px-5 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-medium text-sm transition text-center"
+              >
+                {t('section1.buy')}
+              </a>
+            )
+        }
         <button
           onClick={() => onOpenModal(productKey, images)}
           className="px-5 py-2 bg-slate-200 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-900 dark:text-white rounded-full font-medium text-sm transition"

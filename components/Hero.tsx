@@ -79,7 +79,7 @@ export function Hero() {
           <motion.div
             variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
             <motion.a
-              href="#equipment"
+              href="#rental"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="px-8 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold text-lg transition shadow-lg shadow-sky-200 dark:shadow-sky-900/50 text-center"

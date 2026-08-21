@@ -2,6 +2,8 @@ export { Header } from './Header';
 export { Hero } from './Hero';
 export { Marquee } from './Marquee';
 export { EquipmentSection } from './EquipmentSection';
+export { SaleSection } from './SaleSection';
+export { RentalSection } from './RentalSection';
 export { ProductCard } from './ProductCard';
 export { PackageBanner } from './PackageBanner';
 export { PricingSection } from './PricingSection';

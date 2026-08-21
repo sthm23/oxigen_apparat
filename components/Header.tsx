@@ -30,8 +30,11 @@ export function Header() {
             </div>
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#equipment" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
+            <a href="#rental" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
               {t('header.equipment')}
+            </a>
+            <a href="#sale" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
+              {t('footer.sale')}
             </a>
             <a href="#packages" className="text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition">
               {t('header.packages')}
@@ -57,8 +60,11 @@ export function Header() {
       <div className="md:hidden fixed top-20 left-0 right-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm border-t border-sky-100 dark:border-slate-700 shadow-lg">
         {/* Navigation Menu */}
         <div className="flex items-center justify-around py-2 border-b border-sky-100 dark:border-slate-700">
-          <a href="#equipment" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
+          <a href="#rental" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
             {t('header.equipment')}
+          </a>
+          <a href="#sale" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
+            {t('footer.sale')}
           </a>
           <a href="#packages" className="text-xs text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 transition px-3 py-2">
             {t('header.packages')}

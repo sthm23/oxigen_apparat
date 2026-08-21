@@ -1,7 +1,8 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
-import { EquipmentSection } from "@/components/EquipmentSection";
+import { SaleSection } from "@/components/SaleSection";
+import { RentalSection } from "@/components/RentalSection";
 import { PricingSection } from "@/components/PricingSection";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
@@ -17,7 +18,8 @@ export default function Home() {
         <Marquee />
       </section>
 
-      <EquipmentSection />
+      <RentalSection />
+      <SaleSection />
       <PricingSection />
       <CTASection />
       <Footer />

@@ -2,7 +2,7 @@
   "header": {
     "slogan": "SIFAT • ISHONCH • NATIJA",
     "equipment": "Jihozlar",
-    "packages": "Paketlar",
+    "packages": "Tariflar",
     "reviews": "Sharhlar",
     "contact": "Bog'lanish",
     "sloganTexts": {
@@ -28,6 +28,16 @@
     "item3": "Tez yetkazib berish",
     "item4": "Professional xizmat"
   },
+  "saleSection": {
+    "tag": "SOTUVDAGI JIHOZLAR",
+    "title": "Kislorod konsentratorini sotib oling",
+    "subtitle": "Doimiy foydalanish uchun professional jihozlarni sotib oling. Sifat kafolati va texnik xizmat."
+  },
+  "rentalSection": {
+    "tag": "IJARAGA BERILADIGAN JIHOZLAR",
+    "title": "Kislorod konsentratorini ijaraga oling",
+    "subtitle": "Qulay muddat uchun jihozlarni ijaraga oling. Moslashuvchan tariflar va tez yetkazib berish."
+  },
   "section1": {
     "tag": "ASOSIY JIHOZLAR",
     "title": "Konsentrator ijara va sotish",
@@ -37,30 +47,36 @@
         "name": "Konsentrator 5 L/daq",
         "description": "Ixcham va jim. Uyda foydalanish uchun ideal. Kislorod tozaligi 95±5%.",
         "badge": "MASHHUR",
-        "rentalFrom": "40 000 so'mdan/kuniga"
+        "rentalFrom": "40 000 so'mdan/kuniga",
+        "salePrice": "3 600 000 so'm"
       },
       "concentrator8": {
         "name": "Konsentrator 8 L/daq",
         "description": "Oshirilgan unumdorlik. O'rtacha va yuqori kislorod ehtiyojlari uchun.",
         "badge": "O'RTACHA",
-        "rentalFrom": "50 000 so'mdan/kuniga"
+        "rentalFrom": "60 000 so'mdan/kuniga",
+        "salePrice": "4 200 000 so'm"
       },
       "concentrator10": {
         "name": "Konsentrator 10 L/daq",
         "description": "Professional daraja. Klinikalar va yuqori ehtiyojli bemorlar uchun.",
         "badge": "KLINIKALAR UCHUN",
-        "rentalFrom": "80 000 so'mdan/kuniga"
+        "rentalFrom": "80 000 so'mdan/kuniga",
+        "salePrice": "4 800 000 so'm"
       },
       "accessories": {
         "name": "Pulsoksimetr + sarflanuvchilar",
         "description": "Kislorod to'yinganligini nazorat qilish. Burun kanyulalari, namlagichlar, filtrlar.",
         "badge": "ZARUR",
-        "rentalFrom": "Aniqlashtiring"
+        "rentalFrom": "Aniqlashtiring",
+        "salePrice": "Aniqlashtiring"
       }
     },
     "select": "Tanlash",
+    "buy": "Sotib olish",
     "moreDetails": "Batafsil",
     "rental": "Ijara",
+    "sale": "Narxi",
     "features": {
       "purity": "95.5% gacha toza kislorod",
       "certified": "Tekshirilgan va toza qurilmalar",
@@ -210,7 +226,7 @@
     "licenses": "Litsenziyalar",
     "rent": "Ijaraga",
     "sale": "Sotib olish",
-    "consumables": "Sarflanadigan materiallar",
+    "tariffs": "Tariflar",
     "faq": "Savol-javoblar"
   },
   "notFound": {

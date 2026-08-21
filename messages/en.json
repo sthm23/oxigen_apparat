@@ -28,6 +28,16 @@
     "item3": "Fast delivery",
     "item4": "Professional service"
   },
+  "saleSection": {
+    "tag": "EQUIPMENT FOR SALE",
+    "title": "Oxygen Concentrators for Sale",
+    "subtitle": "Purchase professional equipment for permanent use. Quality guarantee and service support."
+  },
+  "rentalSection": {
+    "tag": "EQUIPMENT RENTAL",
+    "title": "Oxygen Concentrators for Rent",
+    "subtitle": "Rent equipment for a convenient period. Flexible rates and fast delivery."
+  },
   "section1": {
     "tag": "ESSENTIAL EQUIPMENT",
     "title": "Rental and Sale of Concentrators",
@@ -37,30 +47,36 @@
         "name": "5 L/min Concentrator",
         "description": "Compact and quiet. Ideal for home use. Oxygen purity 95±5%.",
         "badge": "POPULAR",
-        "rentalFrom": "from 40,000 sum/day"
+        "rentalFrom": "from 40,000 sum/day",
+        "salePrice": "3,600,000 sum"
       },
       "concentrator8": {
         "name": "8 L/min Concentrator",
         "description": "Increased performance. For medium and high oxygen needs.",
         "badge": "MEDIUM",
-        "rentalFrom": "from 50,000 sum/day"
+        "rentalFrom": "from 60,000 sum/day",
+        "salePrice": "4,200,000 sum"
       },
       "concentrator10": {
         "name": "10 L/min Concentrator",
         "description": "Professional level. For clinics and high-need patients.",
         "badge": "FOR CLINICS",
-        "rentalFrom": "from 80,000 sum/day"
+        "rentalFrom": "from 80,000 sum/day",
+        "salePrice": "4,800,000 sum"
       },
       "accessories": {
         "name": "Pulse Oximeter + Supplies",
         "description": "Oxygen saturation monitoring. Nasal cannulas, humidifiers, filters.",
         "badge": "ESSENTIAL",
-        "rentalFrom": "Contact us"
+        "rentalFrom": "Contact us",
+        "salePrice": "Contact us"
       }
     },
     "select": "Select",
+    "buy": "Buy",
     "moreDetails": "More Details",
     "rental": "Rental",
+    "sale": "Price",
     "features": {
       "purity": "Up to 95.5% pure oxygen",
       "certified": "Tested and clean devices",
@@ -210,7 +226,7 @@
     "licenses": "Licenses",
     "rent": "Rental",
     "sale": "Sale",
-    "consumables": "Consumables",
+    "tariffs": "Tariffs",
     "faq": "FAQ"
   },
   "notFound": {

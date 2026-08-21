@@ -19,7 +19,7 @@ const products = [
   {
     key: 'concentrator8',
     badgeColor: "bg-sky-500",
-    images: ["/img/7.jpg", "/img/2.jpg"]
+    images: ["/img/2.jpg", "/img/7.jpg"]
   },
   {
     key: 'concentrator10',
@@ -32,7 +32,12 @@ const products = [
     images: ["/img/3.jpg"]
   }
 ];
-export function ProductsCarousel() {
+interface ProductsCarouselProps {
+  imageIndex?: number;
+  mode?: 'sale' | 'rent';
+}
+
+export function ProductsCarousel({ imageIndex = 0, mode = 'rent' }: ProductsCarouselProps = {}) {
   const [swiperInstance, setSwiperInstance] = useState<any>(null);
   const [modalState, setModalState] = useState<{
     isOpen: boolean;
@@ -62,7 +67,7 @@ export function ProductsCarousel() {
   };
 
   return (
-    <>
+    <div suppressHydrationWarning>
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         spaceBetween={24}
@@ -98,6 +103,8 @@ export function ProductsCarousel() {
               productKey={product.key}
               badgeColor={product.badgeColor}
               images={product.images}
+              imageIndex={imageIndex}
+              mode={mode}
               onOpenModal={openModal}
             />
           </SwiperSlide>
@@ -112,6 +119,6 @@ export function ProductsCarousel() {
           onClose={closeModal}
         />
       )}
-    </>
+    </div>
   );
 }
