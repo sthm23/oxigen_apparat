@@ -3,15 +3,16 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useEffect } from 'react';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
 interface ProductModalProps {
   productKey: string;
-  imagePath: string;
+  images: string[];
   isOpen: boolean;
   onClose: () => void;
 }
 
-export function ProductModal({ productKey, imagePath, isOpen, onClose }: ProductModalProps) {
+export function ProductModal({ productKey, images, isOpen, onClose }: ProductModalProps) {
   const t = useTranslations();
 
   useEffect(() => {
@@ -56,13 +57,27 @@ export function ProductModal({ productKey, imagePath, isOpen, onClose }: Product
         <div className="p-6">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="aspect-square bg-linear-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-2xl overflow-hidden relative">
-              <Image
-                src={imagePath}
-                alt={t(`section1.products.${productKey}.name`)}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover"
-              />
+              <Swiper
+                modules={[Navigation, Pagination,]}
+                spaceBetween={10}
+                slidesPerView={1}
+                navigation
+                pagination={{ clickable: true }}
+                loop={true}
+                className="h-full w-full"
+              >
+                {images.map((imagePath, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      src={imagePath}
+                      alt={t(`section1.products.${productKey}.name`)}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-contain rounded-2xl"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
 
             <div className="flex flex-col justify-center">

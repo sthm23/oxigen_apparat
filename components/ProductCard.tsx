@@ -6,11 +6,11 @@ import Image from 'next/image';
 interface ProductCardProps {
   productKey: string;
   badgeColor: string;
-  imagePath: string;
-  onOpenModal: (productKey: string, imagePath: string) => void;
+  images: string[];
+  onOpenModal: (productKey: string, images: string[]) => void;
 }
 
-export function ProductCard({ productKey, badgeColor, imagePath, onOpenModal }: ProductCardProps) {
+export function ProductCard({ productKey, badgeColor, images, onOpenModal }: ProductCardProps) {
   const t = useTranslations();
 
   const quickFeatures = [
@@ -53,11 +53,11 @@ export function ProductCard({ productKey, badgeColor, imagePath, onOpenModal }: 
     <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 hover:shadow-xl transition flex flex-col h-full">
       <div className="aspect-square bg-linear-to-br from-sky-100 to-cyan-50 dark:from-sky-900/30 dark:to-cyan-900/30 rounded-xl mb-4 overflow-hidden relative">
         <Image
-          src={imagePath}
+          src={images[0]} // используем первую картинку из массива
           alt={t(`section1.products.${productKey}.name`)}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-          className="object-cover rounded-xl"
+          className="object-contain rounded-xl"
           priority={false}
           loading={'eager'}
         />
@@ -98,7 +98,7 @@ export function ProductCard({ productKey, badgeColor, imagePath, onOpenModal }: 
           {t('section1.select')}
         </a>
         <button
-          onClick={() => onOpenModal(productKey, imagePath)}
+          onClick={() => onOpenModal(productKey, images)}
           className="px-5 py-2 bg-slate-200 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-900 dark:text-white rounded-full font-medium text-sm transition"
         >
           {t('section1.moreDetails')}

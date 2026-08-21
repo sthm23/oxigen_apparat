@@ -14,35 +14,34 @@ const products = [
   {
     key: 'concentrator5',
     badgeColor: "bg-green-500",
-    imagePath: "/img/1.jpg"
+    images: ["/img/4.jpg", "/img/5.jpg"] // массив картинок
   },
   {
     key: 'concentrator8',
     badgeColor: "bg-sky-500",
-    imagePath: "/img/4.jpg"
+    images: ["/img/7.jpg", "/img/2.jpg"]
   },
   {
     key: 'concentrator10',
     badgeColor: "bg-cyan-600",
-    imagePath: "/img/2.jpg"
+    images: ["/img/6.jpg", "/img/8.jpg"]
   },
   {
     key: 'accessories',
     badgeColor: "bg-emerald-500",
-    imagePath: "/img/3.jpg"
+    images: ["/img/3.jpg"]
   }
 ];
-
 export function ProductsCarousel() {
   const [swiperInstance, setSwiperInstance] = useState<any>(null);
   const [modalState, setModalState] = useState<{
     isOpen: boolean;
     productKey: string | null;
-    imagePath: string | null;
+    images: string[];
   }>({
     isOpen: false,
     productKey: null,
-    imagePath: null,
+    images: [],
   });
 
   useEffect(() => {
@@ -54,12 +53,12 @@ export function ProductsCarousel() {
     }
   }, [swiperInstance]);
 
-  const openModal = (productKey: string, imagePath: string) => {
-    setModalState({ isOpen: true, productKey, imagePath });
+  const openModal = (productKey: string, images: string[]) => {
+    setModalState({ isOpen: true, productKey, images });
   };
 
   const closeModal = () => {
-    setModalState({ isOpen: false, productKey: null, imagePath: null });
+    setModalState({ isOpen: false, productKey: null, images: [] });
   };
 
   return (
@@ -98,17 +97,17 @@ export function ProductsCarousel() {
             <ProductCard
               productKey={product.key}
               badgeColor={product.badgeColor}
-              imagePath={product.imagePath}
+              images={product.images}
               onOpenModal={openModal}
             />
           </SwiperSlide>
         ))}
       </Swiper>
 
-      {modalState.productKey && modalState.imagePath && (
+      {modalState.productKey && modalState.images && (
         <ProductModal
           productKey={modalState.productKey}
-          imagePath={modalState.imagePath}
+          images={modalState.images}
           isOpen={modalState.isOpen}
           onClose={closeModal}
         />
