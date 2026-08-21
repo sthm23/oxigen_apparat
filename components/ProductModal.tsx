@@ -10,9 +10,10 @@ interface ProductModalProps {
   images: string[];
   isOpen: boolean;
   onClose: () => void;
+  mode?: 'sale' | 'rent';
 }
 
-export function ProductModal({ productKey, images, isOpen, onClose }: ProductModalProps) {
+export function ProductModal({ productKey, images, isOpen, onClose, mode }: ProductModalProps) {
   const t = useTranslations();
 
   useEffect(() => {
@@ -97,11 +98,12 @@ export function ProductModal({ productKey, images, isOpen, onClose }: ProductMod
 
               <div className="bg-sky-50 dark:bg-sky-900/20 rounded-xl p-5 border border-sky-200 dark:border-sky-800">
                 <div className="text-sm text-slate-600 dark:text-slate-400 mb-2">
-                  {t('section1.products.concentrator5.rentalFrom').includes('Аренда') ? 'Аренда:' :
-                    t('section1.products.concentrator5.rentalFrom').includes('Rental') ? 'Rental:' : 'Ijara:'}
+                  {mode === 'sale' ? t('section1.sale') + ':' : t('section1.rental') + ':'}
                 </div>
                 <div className="text-3xl font-bold text-sky-600 dark:text-sky-400">
-                  {t(`section1.products.${productKey}.rentalFrom`)}
+                  {mode === 'sale'
+                    ? t(`section1.products.${productKey}.salePrice`)
+                    : t(`section1.products.${productKey}.rentalFrom`)}
                 </div>
               </div>
             </div>
@@ -174,13 +176,24 @@ export function ProductModal({ productKey, images, isOpen, onClose }: ProductMod
           </div>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <a
-              href="#packages"
-              onClick={onClose}
-              className="flex-1 px-6 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold text-center transition shadow-lg shadow-sky-600/30"
-            >
-              {t('section1.select')}
-            </a>
+            {
+              mode === 'rent' ? (
+                <a
+                  href="#packages"
+                  className="flex-1 px-6 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold text-center transition shadow-lg shadow-sky-600/30"
+                >
+                  {t('section1.select')}
+                </a>
+              ) :
+                (
+                  <a
+                    href="https://t.me/Abduvohidxon0101"
+                    className="flex-1 px-6 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold text-center transition shadow-lg shadow-sky-600/30"
+                  >
+                    {t('section1.buy')}
+                  </a>
+                )
+            }
             <a
               href="tel:+998990111199"
               className="flex-1 px-6 py-4 bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-900 dark:text-white rounded-full font-semibold text-center transition"

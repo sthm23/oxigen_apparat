@@ -117,6 +117,7 @@ export function ProductsCarousel({ imageIndex = 0, mode = 'rent' }: ProductsCaro
           images={modalState.images}
           isOpen={modalState.isOpen}
           onClose={closeModal}
+          mode={mode}
         />
       )}
     </div>
