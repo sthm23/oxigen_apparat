@@ -1,7 +1,7 @@
 {
   "header": {
     "slogan": "SIFAT • ISHONCH • NATIJA",
-    "equipment": "Jihozlar",
+    "rental": "Ijara",
     "packages": "Tariflar",
     "reviews": "Sharhlar",
     "contact": "Bog'lanish",
@@ -48,21 +48,21 @@
         "description": "Ixcham va jim. Uyda foydalanish uchun ideal. Kislorod tozaligi 95±5%.",
         "badge": "MASHHUR",
         "rentalFrom": "40 000 so'mdan/kuniga",
-        "salePrice": "3 600 000 so'm"
+        "salePrice": "Aniqlashtiring"
       },
       "concentrator8": {
         "name": "Konsentrator 8 L/daq",
         "description": "Oshirilgan unumdorlik. O'rtacha va yuqori kislorod ehtiyojlari uchun.",
         "badge": "O'RTACHA",
         "rentalFrom": "60 000 so'mdan/kuniga",
-        "salePrice": "4 200 000 so'm"
+        "salePrice": "Aniqlashtiring"
       },
       "concentrator10": {
         "name": "Konsentrator 10 L/daq",
         "description": "Professional daraja. Klinikalar va yuqori ehtiyojli bemorlar uchun.",
         "badge": "KLINIKALAR UCHUN",
         "rentalFrom": "80 000 so'mdan/kuniga",
-        "salePrice": "4 800 000 so'm"
+        "salePrice": "Aniqlashtiring"
       },
       "accessories": {
         "name": "Pulsoksimetr + sarflanuvchilar",
@@ -148,7 +148,7 @@
       },
       "tariff2": {
         "price": "40 000",
-        "period": "7 dan 14 kungacha",
+        "period": "10 dan 20 kungacha",
         "label": "O'RTACHA MUDDAT"
       },
       "tariff3": {
