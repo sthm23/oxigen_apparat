@@ -166,7 +166,7 @@
       },
       "tariff2": {
         "price": "60,000",
-        "period": "7 to 14 days",
+        "period": "10 to 20 days",
         "label": "MEDIUM TERM"
       },
       "tariff3": {
@@ -184,7 +184,7 @@
       },
       "tariff2": {
         "price": "80,000",
-        "period": "7 to 14 days",
+        "period": "10 to 20 days",
         "label": "MEDIUM TERM"
       },
       "tariff3": {
